@@ -1,0 +1,94 @@
+|lab5_2
+clk => clk.IN2
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+key => key.IN1
+led[0] <= rgstr:output_rgstr.port4
+led[1] <= rgstr:output_rgstr.port4
+led[2] <= rgstr:output_rgstr.port4
+led[3] <= rgstr:output_rgstr.port4
+led[4] <= rgstr:output_rgstr.port4
+led[5] <= rgstr:output_rgstr.port4
+led[6] <= rgstr:output_rgstr.port4
+led[7] <= rgstr:output_rgstr.port4
+
+
+|lab5_2|cnt_div:cnt
+clk => ena~reg0.CLK
+clk => divcounter[0].CLK
+clk => divcounter[1].CLK
+clk => divcounter[2].CLK
+clk => divcounter[3].CLK
+clk => divcounter[4].CLK
+clk => divcounter[5].CLK
+clk => divcounter[6].CLK
+clk => divcounter[7].CLK
+clk => divcounter[8].CLK
+clk => divcounter[9].CLK
+clk => divcounter[10].CLK
+clk => divcounter[11].CLK
+clk => divcounter[12].CLK
+clk => divcounter[13].CLK
+clk => divcounter[14].CLK
+clk => divcounter[15].CLK
+clk => divcounter[16].CLK
+clk => divcounter[17].CLK
+clk => divcounter[18].CLK
+clk => divcounter[19].CLK
+clk => divcounter[20].CLK
+clk => divcounter[21].CLK
+clk => divcounter[22].CLK
+clk => divcounter[23].CLK
+clk => divcounter[24].CLK
+ena <= ena~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5_2|rgstr:output_rgstr
+clk => val[0].CLK
+clk => val[1].CLK
+clk => val[2].CLK
+clk => val[3].CLK
+clk => val[4].CLK
+clk => val[5].CLK
+clk => val[6].CLK
+clk => val[7].CLK
+ena => val.OUTPUTSELECT
+ena => val.OUTPUTSELECT
+ena => val.OUTPUTSELECT
+ena => val.OUTPUTSELECT
+ena => val.OUTPUTSELECT
+ena => val.OUTPUTSELECT
+ena => val.OUTPUTSELECT
+ena => val.OUTPUTSELECT
+key => val.OUTPUTSELECT
+key => val.OUTPUTSELECT
+key => val.OUTPUTSELECT
+key => val.OUTPUTSELECT
+key => val.OUTPUTSELECT
+key => val.OUTPUTSELECT
+key => val.OUTPUTSELECT
+key => val.OUTPUTSELECT
+d[0] => val.DATAB
+d[1] => val.DATAB
+d[2] => val.DATAB
+d[3] => val.DATAB
+d[4] => val.DATAB
+d[5] => val.DATAB
+d[6] => val.DATAB
+d[7] => val.DATAB
+q[0] <= val[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= val[1].DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= val[2].DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= val[3].DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= val[4].DB_MAX_OUTPUT_PORT_TYPE
+q[5] <= val[5].DB_MAX_OUTPUT_PORT_TYPE
+q[6] <= val[6].DB_MAX_OUTPUT_PORT_TYPE
+q[7] <= val[7].DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,418 @@
+# Reading C:/intelFPGA_lite/16.1/modelsim_ase/tcl/vsim/pref.tcl
+# do Lab4_run_msim_rtl_verilog.do
+# if ![file isdirectory Lab4_iputf_libs] {
+# 	file mkdir Lab4_iputf_libs
+# }
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/16.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+###### Libraries for IPUTF cores 
+# vlib Lab4_iputf_libs/error_adapter_0
+# ** Warning: (vlib-34) Library already exists at "Lab4_iputf_libs/error_adapter_0".
+# vmap error_adapter_0 ./Lab4_iputf_libs/error_adapter_0
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap error_adapter_0 ./Lab4_iputf_libs/error_adapter_0 
+# Modifying modelsim.ini
+# vlib Lab4_iputf_libs/avalon_st_adapter
+# ** Warning: (vlib-34) Library already exists at "Lab4_iputf_libs/avalon_st_adapter".
+# vmap avalon_st_adapter ./Lab4_iputf_libs/avalon_st_adapter
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap avalon_st_adapter ./Lab4_iputf_libs/avalon_st_adapter 
+# Modifying modelsim.ini
+# vlib Lab4_iputf_libs/rsp_mux
+# ** Warning: (vlib-34) Library already exists at "Lab4_iputf_libs/rsp_mux".
+# vmap rsp_mux ./Lab4_iputf_libs/rsp_mux
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap rsp_mux ./Lab4_iputf_libs/rsp_mux 
+# Modifying modelsim.ini
+# vlib Lab4_iputf_libs/rsp_demux
+# ** Warning: (vlib-34) Library already exists at "Lab4_iputf_libs/rsp_demux".
+# vmap rsp_demux ./Lab4_iputf_libs/rsp_demux
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap rsp_demux ./Lab4_iputf_libs/rsp_demux 
+# Modifying modelsim.ini
+# vlib Lab4_iputf_libs/cmd_mux
+# ** Warning: (vlib-34) Library already exists at "Lab4_iputf_libs/cmd_mux".
+# vmap cmd_mux ./Lab4_iputf_libs/cmd_mux
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap cmd_mux ./Lab4_iputf_libs/cmd_mux 
+# Modifying modelsim.ini
+# vlib Lab4_iputf_libs/cmd_demux
+# ** Warning: (vlib-34) Library already exists at "Lab4_iputf_libs/cmd_demux".
+# vmap cmd_demux ./Lab4_iputf_libs/cmd_demux
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap cmd_demux ./Lab4_iputf_libs/cmd_demux 
+# Modifying modelsim.ini
+# vlib Lab4_iputf_libs/router_001
+# ** Warning: (vlib-34) Library already exists at "Lab4_iputf_libs/router_001".
+# vmap router_001 ./Lab4_iputf_libs/router_001
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap router_001 ./Lab4_iputf_libs/router_001 
+# Modifying modelsim.ini
+# vlib Lab4_iputf_libs/router
+# ** Warning: (vlib-34) Library already exists at "Lab4_iputf_libs/router".
+# vmap router ./Lab4_iputf_libs/router
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap router ./Lab4_iputf_libs/router 
+# Modifying modelsim.ini
+# vlib Lab4_iputf_libs/my_slave_0_s0_agent_rsp_fifo
+# ** Warning: (vlib-34) Library already exists at "Lab4_iputf_libs/my_slave_0_s0_agent_rsp_fifo".
+# vmap my_slave_0_s0_agent_rsp_fifo ./Lab4_iputf_libs/my_slave_0_s0_agent_rsp_fifo
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap my_slave_0_s0_agent_rsp_fifo ./Lab4_iputf_libs/my_slave_0_s0_agent_rsp_fifo 
+# Modifying modelsim.ini
+# vlib Lab4_iputf_libs/my_slave_0_s0_agent
+# ** Warning: (vlib-34) Library already exists at "Lab4_iputf_libs/my_slave_0_s0_agent".
+# vmap my_slave_0_s0_agent ./Lab4_iputf_libs/my_slave_0_s0_agent
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap my_slave_0_s0_agent ./Lab4_iputf_libs/my_slave_0_s0_agent 
+# Modifying modelsim.ini
+# vlib Lab4_iputf_libs/my_master_0_m0_agent
+# ** Warning: (vlib-34) Library already exists at "Lab4_iputf_libs/my_master_0_m0_agent".
+# vmap my_master_0_m0_agent ./Lab4_iputf_libs/my_master_0_m0_agent
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap my_master_0_m0_agent ./Lab4_iputf_libs/my_master_0_m0_agent 
+# Modifying modelsim.ini
+# vlib Lab4_iputf_libs/my_slave_0_s0_translator
+# ** Warning: (vlib-34) Library already exists at "Lab4_iputf_libs/my_slave_0_s0_translator".
+# vmap my_slave_0_s0_translator ./Lab4_iputf_libs/my_slave_0_s0_translator
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap my_slave_0_s0_translator ./Lab4_iputf_libs/my_slave_0_s0_translator 
+# Modifying modelsim.ini
+# vlib Lab4_iputf_libs/my_master_0_m0_translator
+# ** Warning: (vlib-34) Library already exists at "Lab4_iputf_libs/my_master_0_m0_translator".
+# vmap my_master_0_m0_translator ./Lab4_iputf_libs/my_master_0_m0_translator
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap my_master_0_m0_translator ./Lab4_iputf_libs/my_master_0_m0_translator 
+# Modifying modelsim.ini
+# vlib Lab4_iputf_libs/mm_interconnect_0
+# ** Warning: (vlib-34) Library already exists at "Lab4_iputf_libs/mm_interconnect_0".
+# vmap mm_interconnect_0 ./Lab4_iputf_libs/mm_interconnect_0
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap mm_interconnect_0 ./Lab4_iputf_libs/mm_interconnect_0 
+# Modifying modelsim.ini
+# vlib Lab4_iputf_libs/my_slave_0
+# ** Warning: (vlib-34) Library already exists at "Lab4_iputf_libs/my_slave_0".
+# vmap my_slave_0 ./Lab4_iputf_libs/my_slave_0
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap my_slave_0 ./Lab4_iputf_libs/my_slave_0 
+# Modifying modelsim.ini
+# vlib Lab4_iputf_libs/my_master_0
+# ** Warning: (vlib-34) Library already exists at "Lab4_iputf_libs/my_master_0".
+# vmap my_master_0 ./Lab4_iputf_libs/my_master_0
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap my_master_0 ./Lab4_iputf_libs/my_master_0 
+# Modifying modelsim.ini
+# vlib Lab4_iputf_libs/my_Dslave_0
+# ** Warning: (vlib-34) Library already exists at "Lab4_iputf_libs/my_Dslave_0".
+# vmap my_Dslave_0 ./Lab4_iputf_libs/my_Dslave_0
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap my_Dslave_0 ./Lab4_iputf_libs/my_Dslave_0 
+# Modifying modelsim.ini
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+# 
+# 
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/Lab4_sys_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv" -work error_adapter_0             
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:58:39 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/Lab4_sys_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv -work error_adapter_0 
+# -- Compiling module Lab4_sys_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# 
+# Top level modules:
+# 	Lab4_sys_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# End time: 14:58:39 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog     "C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/Lab4_sys_mm_interconnect_0_avalon_st_adapter.v"                  -work avalon_st_adapter           
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:58:39 on May 25,2021
+# vlog -reportprogress 300 C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/Lab4_sys_mm_interconnect_0_avalon_st_adapter.v -work avalon_st_adapter 
+# -- Compiling module Lab4_sys_mm_interconnect_0_avalon_st_adapter
+# 
+# Top level modules:
+# 	Lab4_sys_mm_interconnect_0_avalon_st_adapter
+# End time: 14:58:39 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/Lab4_sys_mm_interconnect_0_rsp_mux.sv"                           -work rsp_mux                     
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:58:39 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/Lab4_sys_mm_interconnect_0_rsp_mux.sv -work rsp_mux 
+# -- Compiling module Lab4_sys_mm_interconnect_0_rsp_mux
+# 
+# Top level modules:
+# 	Lab4_sys_mm_interconnect_0_rsp_mux
+# End time: 14:58:39 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/altera_merlin_arbitrator.sv"                                     -work rsp_mux                     
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:58:39 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/altera_merlin_arbitrator.sv -work rsp_mux 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 14:58:39 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/Lab4_sys_mm_interconnect_0_rsp_demux.sv"                         -work rsp_demux                   
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:58:39 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/Lab4_sys_mm_interconnect_0_rsp_demux.sv -work rsp_demux 
+# -- Compiling module Lab4_sys_mm_interconnect_0_rsp_demux
+# 
+# Top level modules:
+# 	Lab4_sys_mm_interconnect_0_rsp_demux
+# End time: 14:58:39 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/Lab4_sys_mm_interconnect_0_cmd_mux.sv"                           -work cmd_mux                     
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:58:39 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/Lab4_sys_mm_interconnect_0_cmd_mux.sv -work cmd_mux 
+# -- Compiling module Lab4_sys_mm_interconnect_0_cmd_mux
+# 
+# Top level modules:
+# 	Lab4_sys_mm_interconnect_0_cmd_mux
+# End time: 14:58:39 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/altera_merlin_arbitrator.sv"                                     -work cmd_mux                     
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:58:40 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/altera_merlin_arbitrator.sv -work cmd_mux 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 14:58:40 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/Lab4_sys_mm_interconnect_0_cmd_demux.sv"                         -work cmd_demux                   
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:58:40 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/Lab4_sys_mm_interconnect_0_cmd_demux.sv -work cmd_demux 
+# -- Compiling module Lab4_sys_mm_interconnect_0_cmd_demux
+# 
+# Top level modules:
+# 	Lab4_sys_mm_interconnect_0_cmd_demux
+# End time: 14:58:40 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/Lab4_sys_mm_interconnect_0_router_001.sv"                        -work router_001                  
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:58:40 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/Lab4_sys_mm_interconnect_0_router_001.sv -work router_001 
+# -- Compiling module Lab4_sys_mm_interconnect_0_router_001_default_decode
+# -- Compiling module Lab4_sys_mm_interconnect_0_router_001
+# 
+# Top level modules:
+# 	Lab4_sys_mm_interconnect_0_router_001
+# End time: 14:58:40 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/Lab4_sys_mm_interconnect_0_router.sv"                            -work router                      
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:58:40 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/Lab4_sys_mm_interconnect_0_router.sv -work router 
+# -- Compiling module Lab4_sys_mm_interconnect_0_router_default_decode
+# -- Compiling module Lab4_sys_mm_interconnect_0_router
+# 
+# Top level modules:
+# 	Lab4_sys_mm_interconnect_0_router
+# End time: 14:58:40 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog     "C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/altera_avalon_sc_fifo.v"                                         -work my_slave_0_s0_agent_rsp_fifo
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:58:40 on May 25,2021
+# vlog -reportprogress 300 C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/altera_avalon_sc_fifo.v -work my_slave_0_s0_agent_rsp_fifo 
+# -- Compiling module altera_avalon_sc_fifo
+# 
+# Top level modules:
+# 	altera_avalon_sc_fifo
+# End time: 14:58:40 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/altera_merlin_slave_agent.sv"                                    -work my_slave_0_s0_agent         
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:58:40 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/altera_merlin_slave_agent.sv -work my_slave_0_s0_agent 
+# -- Compiling module altera_merlin_slave_agent
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/altera_merlin_slave_agent.sv(618): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/altera_merlin_slave_agent.sv(488): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/altera_merlin_slave_agent.sv(489): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/altera_merlin_slave_agent.sv(490): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/altera_merlin_slave_agent.sv(491): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/altera_merlin_slave_agent.sv(34): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# 
+# Top level modules:
+# 	altera_merlin_slave_agent
+# End time: 14:58:40 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 6
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/altera_merlin_burst_uncompressor.sv"                             -work my_slave_0_s0_agent         
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:58:40 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/altera_merlin_burst_uncompressor.sv -work my_slave_0_s0_agent 
+# -- Compiling module altera_merlin_burst_uncompressor
+# 
+# Top level modules:
+# 	altera_merlin_burst_uncompressor
+# End time: 14:58:40 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/altera_merlin_master_agent.sv"                                   -work my_master_0_m0_agent        
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:58:40 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/altera_merlin_master_agent.sv -work my_master_0_m0_agent 
+# -- Compiling module altera_merlin_master_agent
+# 
+# Top level modules:
+# 	altera_merlin_master_agent
+# End time: 14:58:40 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/altera_merlin_slave_translator.sv"                               -work my_slave_0_s0_translator    
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:58:40 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/altera_merlin_slave_translator.sv -work my_slave_0_s0_translator 
+# -- Compiling module altera_merlin_slave_translator
+# 
+# Top level modules:
+# 	altera_merlin_slave_translator
+# End time: 14:58:40 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/altera_merlin_master_translator.sv"                              -work my_master_0_m0_translator   
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:58:40 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/altera_merlin_master_translator.sv -work my_master_0_m0_translator 
+# -- Compiling module altera_merlin_master_translator
+# 
+# Top level modules:
+# 	altera_merlin_master_translator
+# End time: 14:58:40 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog     "C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/Lab4_sys_mm_interconnect_0.v"                                    -work mm_interconnect_0           
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:58:41 on May 25,2021
+# vlog -reportprogress 300 C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/Lab4_sys_mm_interconnect_0.v -work mm_interconnect_0 
+# -- Compiling module Lab4_sys_mm_interconnect_0
+# 
+# Top level modules:
+# 	Lab4_sys_mm_interconnect_0
+# End time: 14:58:41 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/my_slave.sv"                                                     -work my_slave_0                  
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:58:41 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/my_slave.sv -work my_slave_0 
+# -- Compiling module my_slave
+# 
+# Top level modules:
+# 	my_slave
+# End time: 14:58:41 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/my_master.sv"                                                    -work my_master_0                 
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:58:41 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/my_master.sv -work my_master_0 
+# -- Compiling module my_master
+# 
+# Top level modules:
+# 	my_master
+# End time: 14:58:41 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/my_Dslave.sv"                                                    -work my_Dslave_0                 
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:58:41 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/submodules/my_Dslave.sv -work my_Dslave_0 
+# -- Compiling module my_Dslave
+# 
+# Top level modules:
+# 	my_Dslave
+# End time: 14:58:41 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog     "C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/Lab4_sys.v"                                                                                                   
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:58:41 on May 25,2021
+# vlog -reportprogress 300 C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys/simulation/Lab4_sys.v 
+# -- Compiling module Lab4_sys
+# 
+# Top level modules:
+# 	Lab4_sys
+# End time: 14:58:41 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Intel_trn/Baraev/Q_PD/Lab4 {C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys_top.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:58:41 on May 25,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Intel_trn/Baraev/Q_PD/Lab4" C:/Intel_trn/Baraev/Q_PD/Lab4/Lab4_sys_top.sv 
+# -- Compiling module Lab4_sys_top
+# 
+# Top level modules:
+# 	Lab4_sys_top
+# End time: 14:58:41 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Intel_trn/Baraev/Q_PD/Lab4 {C:/Intel_trn/Baraev/Q_PD/Lab4/tb_Lab4_sys_top.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:58:41 on May 25,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Intel_trn/Baraev/Q_PD/Lab4" C:/Intel_trn/Baraev/Q_PD/Lab4/tb_Lab4_sys_top.sv 
+# -- Compiling module tb_Lab4_sys_top
+# 
+# Top level modules:
+# 	tb_Lab4_sys_top
+# End time: 14:58:41 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -L error_adapter_0 -L avalon_st_adapter -L rsp_mux -L rsp_demux -L cmd_mux -L cmd_demux -L router_001 -L router -L my_slave_0_s0_agent_rsp_fifo -L my_slave_0_s0_agent -L my_master_0_m0_agent -L my_slave_0_s0_translator -L my_master_0_m0_translator -L mm_interconnect_0 -L my_slave_0 -L my_master_0 -L my_Dslave_0 -voptargs="+acc"  tb_Lab4_sys_top
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -L error_adapter_0 -L avalon_st_adapter -L rsp_mux -L rsp_demux -L cmd_mux -L cmd_demux -L router_001 -L router -L my_slave_0_s0_agent_rsp_fifo -L my_slave_0_s0_agent -L my_master_0_m0_agent -L my_slave_0_s0_translator -L my_master_0_m0_translator -L mm_interconnect_0 -L my_slave_0 -L my_master_0 -L my_Dslave_0 -voptargs=""+acc"" tb_Lab4_sys_top 
+# Start time: 14:58:41 on May 25,2021
+# Loading sv_std.std
+# Loading work.tb_Lab4_sys_top
+# Loading work.Lab4_sys_top
+# Loading work.Lab4_sys
+# Loading my_Dslave_0.my_Dslave
+# Loading my_master_0.my_master
+# Loading my_slave_0.my_slave
+# Loading mm_interconnect_0.Lab4_sys_mm_interconnect_0
+# Loading my_master_0_m0_translator.altera_merlin_master_translator
+# Loading my_slave_0_s0_translator.altera_merlin_slave_translator
+# Loading my_master_0_m0_agent.altera_merlin_master_agent
+# Loading my_slave_0_s0_agent.altera_merlin_slave_agent
+# Loading my_slave_0_s0_agent.altera_merlin_burst_uncompressor
+# Loading my_slave_0_s0_agent_rsp_fifo.altera_avalon_sc_fifo
+# Loading router.Lab4_sys_mm_interconnect_0_router
+# Loading router.Lab4_sys_mm_interconnect_0_router_default_decode
+# Loading router_001.Lab4_sys_mm_interconnect_0_router_001
+# Loading router_001.Lab4_sys_mm_interconnect_0_router_001_default_decode
+# Loading cmd_demux.Lab4_sys_mm_interconnect_0_cmd_demux
+# Loading cmd_mux.Lab4_sys_mm_interconnect_0_cmd_mux
+# Loading rsp_demux.Lab4_sys_mm_interconnect_0_rsp_demux
+# Loading rsp_mux.Lab4_sys_mm_interconnect_0_rsp_mux
+# Loading rsp_mux.altera_merlin_arbitrator
+# Loading rsp_mux.altera_merlin_arb_adder
+# Loading avalon_st_adapter.Lab4_sys_mm_interconnect_0_avalon_st_adapter
+# Loading error_adapter_0.Lab4_sys_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# ** Warning: (vsim-8311) System Verilog assertions are supported only in Questasim.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : C:/Intel_trn/Baraev/Q_PD/Lab4/tb_Lab4_sys_top.sv(21)
+#    Time: 4200 ns  Iteration: 0  Instance: /tb_Lab4_sys_top
+# Break in Module tb_Lab4_sys_top at C:/Intel_trn/Baraev/Q_PD/Lab4/tb_Lab4_sys_top.sv line 21
+do C:/Intel_trn/Baraev/Q_PD/Lab4/waveLab4.do
+restart
+run -all
+# ** Note: $stop    : C:/Intel_trn/Baraev/Q_PD/Lab4/tb_Lab4_sys_top.sv(21)
+#    Time: 4200 ns  Iteration: 0  Instance: /tb_Lab4_sys_top
+# Break in Module tb_Lab4_sys_top at C:/Intel_trn/Baraev/Q_PD/Lab4/tb_Lab4_sys_top.sv line 21
+# End time: 16:05:12 on May 25,2021, Elapsed time: 1:06:31
+# Errors: 0, Warnings: 1

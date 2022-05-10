@@ -1,0 +1,213 @@
+[System]
+Name='Untitled1'
+Type='sugeno'
+Version=2.0
+NumInputs=4
+NumOutputs=1
+NumRules=81
+AndMethod='prod'
+OrMethod='probor'
+ImpMethod='prod'
+AggMethod='sum'
+DefuzzMethod='wtaver'
+
+[Input1]
+Name='input1'
+Range=[1 8]
+NumMFs=3
+MF1='in1mf1':'trimf',[-2.5 1 4.5]
+MF2='in1mf2':'trimf',[1 4.5 8]
+MF3='in1mf3':'trimf',[4.5 8 11.5]
+
+[Input2]
+Name='input2'
+Range=[1 2000]
+NumMFs=3
+MF1='in2mf1':'trimf',[-998.5 1 1000.5]
+MF2='in2mf2':'trimf',[1 1000.5 2000]
+MF3='in2mf3':'trimf',[1000.5 2000 2999.5]
+
+[Input3]
+Name='input3'
+Range=[1 5]
+NumMFs=3
+MF1='in3mf1':'trimf',[-1 1 3]
+MF2='in3mf2':'trimf',[1 3 5]
+MF3='in3mf3':'trimf',[3 5 7]
+
+[Input4]
+Name='input4'
+Range=[1 1000]
+NumMFs=3
+MF1='in4mf1':'trimf',[-498.5 1 500.5]
+MF2='in4mf2':'trimf',[1 500.5 1000]
+MF3='in4mf3':'trimf',[500.5 1000 1499.5]
+
+[Output1]
+Name='output'
+Range=[1.45 82.19]
+NumMFs=81
+MF1='out1mf1':'constant',[-3.69478182425816]
+MF2='out1mf2':'constant',[-203.208603925753]
+MF3='out1mf3':'constant',[0]
+MF4='out1mf4':'constant',[19.6986481900919]
+MF5='out1mf5':'constant',[-111.005526730776]
+MF6='out1mf6':'constant',[0]
+MF7='out1mf7':'constant',[-1.11762504756425]
+MF8='out1mf8':'constant',[123.352787350178]
+MF9='out1mf9':'constant',[0]
+MF10='out1mf10':'constant',[1126.23688516576]
+MF11='out1mf11':'constant',[-1962.85905324461]
+MF12='out1mf12':'constant',[0]
+MF13='out1mf13':'constant',[-506.31615390275]
+MF14='out1mf14':'constant',[1798.00027644309]
+MF15='out1mf15':'constant',[0]
+MF16='out1mf16':'constant',[-0.0274966695881062]
+MF17='out1mf17':'constant',[3.03481998606262]
+MF18='out1mf18':'constant',[0]
+MF19='out1mf19':'constant',[0]
+MF20='out1mf20':'constant',[0]
+MF21='out1mf21':'constant',[0]
+MF22='out1mf22':'constant',[0]
+MF23='out1mf23':'constant',[0]
+MF24='out1mf24':'constant',[2.74323597748298]
+MF25='out1mf25':'constant',[0]
+MF26='out1mf26':'constant',[0]
+MF27='out1mf27':'constant',[2.74323597748298]
+MF28='out1mf28':'constant',[32.2146010206008]
+MF29='out1mf29':'constant',[147.644159572904]
+MF30='out1mf30':'constant',[0]
+MF31='out1mf31':'constant',[419.301773772748]
+MF32='out1mf32':'constant',[-450.497523263828]
+MF33='out1mf33':'constant',[0]
+MF34='out1mf34':'constant',[-4.99112957415743]
+MF35='out1mf35':'constant',[740.116724100945]
+MF36='out1mf36':'constant',[0]
+MF37='out1mf37':'constant',[-80.6318657815917]
+MF38='out1mf38':'constant',[17.2821788801777]
+MF39='out1mf39':'constant',[0]
+MF40='out1mf40':'constant',[-1222.69059239773]
+MF41='out1mf41':'constant',[1525.05008212834]
+MF42='out1mf42':'constant',[0]
+MF43='out1mf43':'constant',[-0.164980017418283]
+MF44='out1mf44':'constant',[18.2089199163762]
+MF45='out1mf45':'constant',[0]
+MF46='out1mf46':'constant',[0]
+MF47='out1mf47':'constant',[0]
+MF48='out1mf48':'constant',[0]
+MF49='out1mf49':'constant',[0]
+MF50='out1mf50':'constant',[0]
+MF51='out1mf51':'constant',[16.4594158641994]
+MF52='out1mf52':'constant',[0]
+MF53='out1mf53':'constant',[0]
+MF54='out1mf54':'constant',[16.4594158641994]
+MF55='out1mf55':'constant',[-138.205148863529]
+MF56='out1mf56':'constant',[-79.8246692654331]
+MF57='out1mf57':'constant',[0]
+MF58='out1mf58':'constant',[-165.600826276103]
+MF59='out1mf59':'constant',[528.329041079953]
+MF60='out1mf60':'constant',[0]
+MF61='out1mf61':'constant',[4.28655179728733]
+MF62='out1mf62':'constant',[0]
+MF63='out1mf63':'constant',[0]
+MF64='out1mf64':'constant',[-72.9090575928673]
+MF65='out1mf65':'constant',[-34.1845540170029]
+MF66='out1mf66':'constant',[0]
+MF67='out1mf67':'constant',[424.900669379851]
+MF68='out1mf68':'constant',[177.666620201793]
+MF69='out1mf69':'constant',[0]
+MF70='out1mf70':'constant',[0]
+MF71='out1mf71':'constant',[0]
+MF72='out1mf72':'constant',[0]
+MF73='out1mf73':'constant',[0]
+MF74='out1mf74':'constant',[0]
+MF75='out1mf75':'constant',[0]
+MF76='out1mf76':'constant',[0]
+MF77='out1mf77':'constant',[0]
+MF78='out1mf78':'constant',[0]
+MF79='out1mf79':'constant',[0]
+MF80='out1mf80':'constant',[0]
+MF81='out1mf81':'constant',[0]
+
+[Rules]
+1 1 1 1, 1 (1) : 1
+1 1 1 2, 2 (1) : 1
+1 1 1 3, 3 (1) : 1
+1 1 2 1, 4 (1) : 1
+1 1 2 2, 5 (1) : 1
+1 1 2 3, 6 (1) : 1
+1 1 3 1, 7 (1) : 1
+1 1 3 2, 8 (1) : 1
+1 1 3 3, 9 (1) : 1
+1 2 1 1, 10 (1) : 1
+1 2 1 2, 11 (1) : 1
+1 2 1 3, 12 (1) : 1
+1 2 2 1, 13 (1) : 1
+1 2 2 2, 14 (1) : 1
+1 2 2 3, 15 (1) : 1
+1 2 3 1, 16 (1) : 1
+1 2 3 2, 17 (1) : 1
+1 2 3 3, 18 (1) : 1
+1 3 1 1, 19 (1) : 1
+1 3 1 2, 20 (1) : 1
+1 3 1 3, 21 (1) : 1
+1 3 2 1, 22 (1) : 1
+1 3 2 2, 23 (1) : 1
+1 3 2 3, 24 (1) : 1
+1 3 3 1, 25 (1) : 1
+1 3 3 2, 26 (1) : 1
+1 3 3 3, 27 (1) : 1
+2 1 1 1, 28 (1) : 1
+2 1 1 2, 29 (1) : 1
+2 1 1 3, 30 (1) : 1
+2 1 2 1, 31 (1) : 1
+2 1 2 2, 32 (1) : 1
+2 1 2 3, 33 (1) : 1
+2 1 3 1, 34 (1) : 1
+2 1 3 2, 35 (1) : 1
+2 1 3 3, 36 (1) : 1
+2 2 1 1, 37 (1) : 1
+2 2 1 2, 38 (1) : 1
+2 2 1 3, 39 (1) : 1
+2 2 2 1, 40 (1) : 1
+2 2 2 2, 41 (1) : 1
+2 2 2 3, 42 (1) : 1
+2 2 3 1, 43 (1) : 1
+2 2 3 2, 44 (1) : 1
+2 2 3 3, 45 (1) : 1
+2 3 1 1, 46 (1) : 1
+2 3 1 2, 47 (1) : 1
+2 3 1 3, 48 (1) : 1
+2 3 2 1, 49 (1) : 1
+2 3 2 2, 50 (1) : 1
+2 3 2 3, 51 (1) : 1
+2 3 3 1, 52 (1) : 1
+2 3 3 2, 53 (1) : 1
+2 3 3 3, 54 (1) : 1
+3 1 1 1, 55 (1) : 1
+3 1 1 2, 56 (1) : 1
+3 1 1 3, 57 (1) : 1
+3 1 2 1, 58 (1) : 1
+3 1 2 2, 59 (1) : 1
+3 1 2 3, 60 (1) : 1
+3 1 3 1, 61 (1) : 1
+3 1 3 2, 62 (1) : 1
+3 1 3 3, 63 (1) : 1
+3 2 1 1, 64 (1) : 1
+3 2 1 2, 65 (1) : 1
+3 2 1 3, 66 (1) : 1
+3 2 2 1, 67 (1) : 1
+3 2 2 2, 68 (1) : 1
+3 2 2 3, 69 (1) : 1
+3 2 3 1, 70 (1) : 1
+3 2 3 2, 71 (1) : 1
+3 2 3 3, 72 (1) : 1
+3 3 1 1, 73 (1) : 1
+3 3 1 2, 74 (1) : 1
+3 3 1 3, 75 (1) : 1
+3 3 2 1, 76 (1) : 1
+3 3 2 2, 77 (1) : 1
+3 3 2 3, 78 (1) : 1
+3 3 3 1, 79 (1) : 1
+3 3 3 2, 80 (1) : 1
+3 3 3 3, 81 (1) : 1

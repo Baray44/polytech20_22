@@ -1,0 +1,165 @@
+Flow report for Lab3
+Tue May 25 12:52:58 2021
+Quartus Prime Version 16.1.2 Build 203 01/18/2017 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++------------------------------------+---------------------------------------------+
+; Flow Status                        ; Successful - Tue May 25 12:52:58 2021       ;
+; Quartus Prime Version              ; 16.1.2 Build 203 01/18/2017 SJ Lite Edition ;
+; Revision Name                      ; Lab3                                        ;
+; Top-level Entity Name              ; Lab3_top                                    ;
+; Family                             ; Cyclone IV E                                ;
+; Device                             ; EP4CE6E22C8                                 ;
+; Timing Models                      ; Final                                       ;
+; Total logic elements               ; 34                                          ;
+;     Total combinational functions  ; 32                                          ;
+;     Dedicated logic registers      ; 28                                          ;
+; Total registers                    ; 28                                          ;
+; Total pins                         ; 42                                          ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0                                           ;
+; Embedded Multiplier 9-bit elements ; 0                                           ;
+; Total PLLs                         ; 0                                           ;
++------------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 05/25/2021 12:52:45 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; Lab3                ;
++-------------------+---------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                                    ;
++-------------------------------------+------------------------------------------------------------------------------------------------+---------------+-------------+----------------+
+; Assignment Name                     ; Value                                                                                          ; Default Value ; Entity Name ; Section Id     ;
++-------------------------------------+------------------------------------------------------------------------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 963351302933.162193636502900                                                                   ; --            ; --          ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                                                                                    ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)                                                                      ; <None>        ; --          ; --             ;
+; EDA_TIME_SCALE                      ; 1 ps                                                                                           ; --            ; --          ; eda_simulation ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                                                                             ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                                                                              ; --            ; --          ; --             ;
+; MISC_FILE                           ; Lab3_1/synthesis/../Lab3_1.cmp                                                                 ; --            ; --          ; --             ;
+; MISC_FILE                           ; Lab3_1/synthesis/../../Lab3_1.qsys                                                             ; --            ; --          ; --             ;
+; MISC_FILE                           ; Lab3_1/simulation/../../Lab3_1.qsys                                                            ; --            ; --          ; --             ;
+; MISC_FILE                           ; Lab3_1/simulation/Lab3_1.v                                                                     ; --            ; --          ; --             ;
+; MISC_FILE                           ; Lab3_1/simulation/submodules/Lab3_1_mm_interconnect_0.v                                        ; --            ; --          ; --             ;
+; MISC_FILE                           ; Lab3_1/simulation/submodules/Lab3_1_mm_interconnect_0_avalon_st_adapter_001.v                  ; --            ; --          ; --             ;
+; MISC_FILE                           ; Lab3_1/simulation/submodules/Lab3_1_mm_interconnect_0_avalon_st_adapter_001_error_adapter_0.sv ; --            ; --          ; --             ;
+; MISC_FILE                           ; Lab3_1/simulation/submodules/Lab3_1_mm_interconnect_0_avalon_st_adapter.v                      ; --            ; --          ; --             ;
+; MISC_FILE                           ; Lab3_1/simulation/submodules/Lab3_1_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv     ; --            ; --          ; --             ;
+; MISC_FILE                           ; Lab3_1/simulation/submodules/altera_merlin_width_adapter.sv                                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; Lab3_1/simulation/submodules/altera_merlin_address_alignment.sv                                ; --            ; --          ; --             ;
+; MISC_FILE                           ; Lab3_1/simulation/submodules/altera_merlin_burst_uncompressor.sv                               ; --            ; --          ; --             ;
+; MISC_FILE                           ; Lab3_1/simulation/submodules/Lab3_1_mm_interconnect_0_rsp_mux.sv                               ; --            ; --          ; --             ;
+; MISC_FILE                           ; Lab3_1/simulation/submodules/altera_merlin_arbitrator.sv                                       ; --            ; --          ; --             ;
+; MISC_FILE                           ; Lab3_1/simulation/submodules/Lab3_1_mm_interconnect_0_rsp_demux.sv                             ; --            ; --          ; --             ;
+; MISC_FILE                           ; Lab3_1/simulation/submodules/Lab3_1_mm_interconnect_0_cmd_mux.sv                               ; --            ; --          ; --             ;
+; MISC_FILE                           ; Lab3_1/simulation/submodules/Lab3_1_mm_interconnect_0_cmd_demux.sv                             ; --            ; --          ; --             ;
+; MISC_FILE                           ; Lab3_1/simulation/submodules/altera_merlin_burst_adapter.sv                                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; Lab3_1/simulation/submodules/altera_merlin_burst_adapter_uncmpr.sv                             ; --            ; --          ; --             ;
+; MISC_FILE                           ; Lab3_1/simulation/submodules/altera_merlin_burst_adapter_13_1.sv                               ; --            ; --          ; --             ;
+; MISC_FILE                           ; Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv                                ; --            ; --          ; --             ;
+; MISC_FILE                           ; Lab3_1/simulation/submodules/altera_incr_burst_converter.sv                                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; Lab3_1/simulation/submodules/altera_wrap_burst_converter.sv                                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; Lab3_1/simulation/submodules/altera_default_burst_converter.sv                                 ; --            ; --          ; --             ;
+; MISC_FILE                           ; Lab3_1/simulation/submodules/altera_avalon_st_pipeline_stage.sv                                ; --            ; --          ; --             ;
+; MISC_FILE                           ; Lab3_1/simulation/submodules/altera_avalon_st_pipeline_base.v                                  ; --            ; --          ; --             ;
+; MISC_FILE                           ; Lab3_1/simulation/submodules/Lab3_1_mm_interconnect_0_router_002.sv                            ; --            ; --          ; --             ;
+; MISC_FILE                           ; Lab3_1/simulation/submodules/Lab3_1_mm_interconnect_0_router_001.sv                            ; --            ; --          ; --             ;
+; MISC_FILE                           ; Lab3_1/simulation/submodules/Lab3_1_mm_interconnect_0_router.sv                                ; --            ; --          ; --             ;
+; MISC_FILE                           ; Lab3_1/simulation/submodules/altera_avalon_sc_fifo.v                                           ; --            ; --          ; --             ;
+; MISC_FILE                           ; Lab3_1/simulation/submodules/altera_merlin_slave_agent.sv                                      ; --            ; --          ; --             ;
+; MISC_FILE                           ; Lab3_1/simulation/submodules/altera_merlin_master_agent.sv                                     ; --            ; --          ; --             ;
+; MISC_FILE                           ; Lab3_1/simulation/submodules/altera_merlin_slave_translator.sv                                 ; --            ; --          ; --             ;
+; MISC_FILE                           ; Lab3_1/simulation/submodules/altera_merlin_master_translator.sv                                ; --            ; --          ; --             ;
+; MISC_FILE                           ; Lab3_1/simulation/submodules/my_slave.sv                                                       ; --            ; --          ; --             ;
+; MISC_FILE                           ; Lab3_1/simulation/submodules/my_slaveWS.sv                                                     ; --            ; --          ; --             ;
+; MISC_FILE                           ; Lab3_1/simulation/submodules/my_master.sv                                                      ; --            ; --          ; --             ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                                                                           ; --            ; --          ; --             ;
+; NUM_PARALLEL_PROCESSORS             ; All                                                                                            ; --            ; --          ; --             ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family)                                                         ; --            ; Lab3_top    ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family)                                                         ; --            ; Lab3_top    ; Top            ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family)                                                         ; --            ; Lab3_top    ; Top            ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                                                                            ; --            ; --          ; --             ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                                                          ; --            ; --          ; --             ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                                                                                   ; --            ; --          ; --             ;
+; SLD_FILE                            ; Lab3_1/synthesis/Lab3_1.debuginfo                                                              ; --            ; --          ; --             ;
+; SLD_INFO                            ; QSYS_NAME Lab3_1 HAS_SOPCINFO 1 GENERATION_ID 1621935655                                       ; --            ; Lab3_1      ; --             ;
+; SMART_RECOMPILE                     ; On                                                                                             ; Off           ; --          ; --             ;
+; SOPCINFO_FILE                       ; Lab3_1/synthesis/../../Lab3_1.sopcinfo                                                         ; --            ; --          ; --             ;
+; SPD_FILE                            ; Lab3_1/simulation/../Lab3_1.spd                                                                ; --            ; --          ; --             ;
+; SYNTHESIS_ONLY_QIP                  ; On                                                                                             ; --            ; --          ; --             ;
+; TOP_LEVEL_ENTITY                    ; Lab3_top                                                                                       ; Lab3          ; --          ; --             ;
++-------------------------------------+------------------------------------------------------------------------------------------------+---------------+-------------+----------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:13     ; 1.0                     ; 617 MB              ; 00:00:29                           ;
+; Total                ; 00:00:13     ; --                      ; --                  ; 00:00:29                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++-----------------------------------------------------------------------------------+
+; Flow OS Summary                                                                   ;
++----------------------+------------------+-----------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++----------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis ; LAB2124          ; Windows 7 ; 6.1        ; x86_64         ;
++----------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off Lab3 -c Lab3
+
+
+

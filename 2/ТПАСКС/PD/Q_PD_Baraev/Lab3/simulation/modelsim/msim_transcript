@@ -1,0 +1,691 @@
+# Reading C:/intelFPGA_lite/16.1/modelsim_ase/tcl/vsim/pref.tcl
+# do Lab3_run_msim_rtl_verilog.do
+# if ![file isdirectory Lab3_iputf_libs] {
+# 	file mkdir Lab3_iputf_libs
+# }
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/16.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+###### Libraries for IPUTF cores 
+# vlib Lab3_iputf_libs/error_adapter_0
+# vmap error_adapter_0 ./Lab3_iputf_libs/error_adapter_0
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap error_adapter_0 ./Lab3_iputf_libs/error_adapter_0 
+# Modifying modelsim.ini
+# vlib Lab3_iputf_libs/avalon_st_adapter_001
+# vmap avalon_st_adapter_001 ./Lab3_iputf_libs/avalon_st_adapter_001
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap avalon_st_adapter_001 ./Lab3_iputf_libs/avalon_st_adapter_001 
+# Modifying modelsim.ini
+# vlib Lab3_iputf_libs/avalon_st_adapter
+# vmap avalon_st_adapter ./Lab3_iputf_libs/avalon_st_adapter
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap avalon_st_adapter ./Lab3_iputf_libs/avalon_st_adapter 
+# Modifying modelsim.ini
+# vlib Lab3_iputf_libs/my_slave_0_s0_rsp_width_adapter
+# vmap my_slave_0_s0_rsp_width_adapter ./Lab3_iputf_libs/my_slave_0_s0_rsp_width_adapter
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap my_slave_0_s0_rsp_width_adapter ./Lab3_iputf_libs/my_slave_0_s0_rsp_width_adapter 
+# Modifying modelsim.ini
+# vlib Lab3_iputf_libs/rsp_mux
+# vmap rsp_mux ./Lab3_iputf_libs/rsp_mux
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap rsp_mux ./Lab3_iputf_libs/rsp_mux 
+# Modifying modelsim.ini
+# vlib Lab3_iputf_libs/rsp_demux
+# vmap rsp_demux ./Lab3_iputf_libs/rsp_demux
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap rsp_demux ./Lab3_iputf_libs/rsp_demux 
+# Modifying modelsim.ini
+# vlib Lab3_iputf_libs/cmd_mux
+# vmap cmd_mux ./Lab3_iputf_libs/cmd_mux
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap cmd_mux ./Lab3_iputf_libs/cmd_mux 
+# Modifying modelsim.ini
+# vlib Lab3_iputf_libs/cmd_demux
+# vmap cmd_demux ./Lab3_iputf_libs/cmd_demux
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap cmd_demux ./Lab3_iputf_libs/cmd_demux 
+# Modifying modelsim.ini
+# vlib Lab3_iputf_libs/my_slave_0_s0_burst_adapter
+# vmap my_slave_0_s0_burst_adapter ./Lab3_iputf_libs/my_slave_0_s0_burst_adapter
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap my_slave_0_s0_burst_adapter ./Lab3_iputf_libs/my_slave_0_s0_burst_adapter 
+# Modifying modelsim.ini
+# vlib Lab3_iputf_libs/router_002
+# vmap router_002 ./Lab3_iputf_libs/router_002
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap router_002 ./Lab3_iputf_libs/router_002 
+# Modifying modelsim.ini
+# vlib Lab3_iputf_libs/router_001
+# vmap router_001 ./Lab3_iputf_libs/router_001
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap router_001 ./Lab3_iputf_libs/router_001 
+# Modifying modelsim.ini
+# vlib Lab3_iputf_libs/router
+# vmap router ./Lab3_iputf_libs/router
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap router ./Lab3_iputf_libs/router 
+# Modifying modelsim.ini
+# vlib Lab3_iputf_libs/my_slave_0_s0_agent_rsp_fifo
+# vmap my_slave_0_s0_agent_rsp_fifo ./Lab3_iputf_libs/my_slave_0_s0_agent_rsp_fifo
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap my_slave_0_s0_agent_rsp_fifo ./Lab3_iputf_libs/my_slave_0_s0_agent_rsp_fifo 
+# Modifying modelsim.ini
+# vlib Lab3_iputf_libs/my_slave_0_s0_agent
+# vmap my_slave_0_s0_agent ./Lab3_iputf_libs/my_slave_0_s0_agent
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap my_slave_0_s0_agent ./Lab3_iputf_libs/my_slave_0_s0_agent 
+# Modifying modelsim.ini
+# vlib Lab3_iputf_libs/my_master_0_m0_agent
+# vmap my_master_0_m0_agent ./Lab3_iputf_libs/my_master_0_m0_agent
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap my_master_0_m0_agent ./Lab3_iputf_libs/my_master_0_m0_agent 
+# Modifying modelsim.ini
+# vlib Lab3_iputf_libs/my_slave_0_s0_translator
+# vmap my_slave_0_s0_translator ./Lab3_iputf_libs/my_slave_0_s0_translator
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap my_slave_0_s0_translator ./Lab3_iputf_libs/my_slave_0_s0_translator 
+# Modifying modelsim.ini
+# vlib Lab3_iputf_libs/my_master_0_m0_translator
+# vmap my_master_0_m0_translator ./Lab3_iputf_libs/my_master_0_m0_translator
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap my_master_0_m0_translator ./Lab3_iputf_libs/my_master_0_m0_translator 
+# Modifying modelsim.ini
+# vlib Lab3_iputf_libs/mm_interconnect_0
+# vmap mm_interconnect_0 ./Lab3_iputf_libs/mm_interconnect_0
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap mm_interconnect_0 ./Lab3_iputf_libs/mm_interconnect_0 
+# Modifying modelsim.ini
+# vlib Lab3_iputf_libs/my_slave_0
+# vmap my_slave_0 ./Lab3_iputf_libs/my_slave_0
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap my_slave_0 ./Lab3_iputf_libs/my_slave_0 
+# Modifying modelsim.ini
+# vlib Lab3_iputf_libs/my_slaveWS_0
+# vmap my_slaveWS_0 ./Lab3_iputf_libs/my_slaveWS_0
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap my_slaveWS_0 ./Lab3_iputf_libs/my_slaveWS_0 
+# Modifying modelsim.ini
+# vlib Lab3_iputf_libs/my_master_0
+# vmap my_master_0 ./Lab3_iputf_libs/my_master_0
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap my_master_0 ./Lab3_iputf_libs/my_master_0 
+# Modifying modelsim.ini
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+# 
+# 
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/Lab3_1_mm_interconnect_0_avalon_st_adapter_001_error_adapter_0.sv" -work error_adapter_0                
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:59:59 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/Lab3_1_mm_interconnect_0_avalon_st_adapter_001_error_adapter_0.sv -work error_adapter_0 
+# -- Compiling module Lab3_1_mm_interconnect_0_avalon_st_adapter_001_error_adapter_0
+# 
+# Top level modules:
+# 	Lab3_1_mm_interconnect_0_avalon_st_adapter_001_error_adapter_0
+# End time: 12:59:59 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/Lab3_1_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv"     -work error_adapter_0                
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:59:59 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/Lab3_1_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv -work error_adapter_0 
+# -- Compiling module Lab3_1_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# 
+# Top level modules:
+# 	Lab3_1_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# End time: 12:59:59 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog     "C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/Lab3_1_mm_interconnect_0_avalon_st_adapter_001.v"                  -work avalon_st_adapter_001          
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:59:59 on May 25,2021
+# vlog -reportprogress 300 C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/Lab3_1_mm_interconnect_0_avalon_st_adapter_001.v -work avalon_st_adapter_001 
+# -- Compiling module Lab3_1_mm_interconnect_0_avalon_st_adapter_001
+# 
+# Top level modules:
+# 	Lab3_1_mm_interconnect_0_avalon_st_adapter_001
+# End time: 12:59:59 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog     "C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/Lab3_1_mm_interconnect_0_avalon_st_adapter.v"                      -work avalon_st_adapter              
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:59:59 on May 25,2021
+# vlog -reportprogress 300 C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/Lab3_1_mm_interconnect_0_avalon_st_adapter.v -work avalon_st_adapter 
+# -- Compiling module Lab3_1_mm_interconnect_0_avalon_st_adapter
+# 
+# Top level modules:
+# 	Lab3_1_mm_interconnect_0_avalon_st_adapter
+# End time: 12:59:59 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_width_adapter.sv"                                    -work my_slave_0_s0_rsp_width_adapter
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:59:59 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_width_adapter.sv -work my_slave_0_s0_rsp_width_adapter 
+# -- Compiling module altera_merlin_width_adapter
+# 
+# Top level modules:
+# 	altera_merlin_width_adapter
+# End time: 12:59:59 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_address_alignment.sv"                                -work my_slave_0_s0_rsp_width_adapter
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:59:59 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_address_alignment.sv -work my_slave_0_s0_rsp_width_adapter 
+# -- Compiling module altera_merlin_address_alignment
+# 
+# Top level modules:
+# 	altera_merlin_address_alignment
+# End time: 12:59:59 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_uncompressor.sv"                               -work my_slave_0_s0_rsp_width_adapter
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:59:59 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_uncompressor.sv -work my_slave_0_s0_rsp_width_adapter 
+# -- Compiling module altera_merlin_burst_uncompressor
+# 
+# Top level modules:
+# 	altera_merlin_burst_uncompressor
+# End time: 12:59:59 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/Lab3_1_mm_interconnect_0_rsp_mux.sv"                               -work rsp_mux                        
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:00:00 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/Lab3_1_mm_interconnect_0_rsp_mux.sv -work rsp_mux 
+# -- Compiling module Lab3_1_mm_interconnect_0_rsp_mux
+# 
+# Top level modules:
+# 	Lab3_1_mm_interconnect_0_rsp_mux
+# End time: 13:00:00 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_arbitrator.sv"                                       -work rsp_mux                        
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:00:00 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_arbitrator.sv -work rsp_mux 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 13:00:00 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/Lab3_1_mm_interconnect_0_rsp_demux.sv"                             -work rsp_demux                      
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:00:00 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/Lab3_1_mm_interconnect_0_rsp_demux.sv -work rsp_demux 
+# -- Compiling module Lab3_1_mm_interconnect_0_rsp_demux
+# 
+# Top level modules:
+# 	Lab3_1_mm_interconnect_0_rsp_demux
+# End time: 13:00:00 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/Lab3_1_mm_interconnect_0_cmd_mux.sv"                               -work cmd_mux                        
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:00:00 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/Lab3_1_mm_interconnect_0_cmd_mux.sv -work cmd_mux 
+# -- Compiling module Lab3_1_mm_interconnect_0_cmd_mux
+# 
+# Top level modules:
+# 	Lab3_1_mm_interconnect_0_cmd_mux
+# End time: 13:00:00 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_arbitrator.sv"                                       -work cmd_mux                        
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:00:00 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_arbitrator.sv -work cmd_mux 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 13:00:00 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/Lab3_1_mm_interconnect_0_cmd_demux.sv"                             -work cmd_demux                      
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:00:00 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/Lab3_1_mm_interconnect_0_cmd_demux.sv -work cmd_demux 
+# -- Compiling module Lab3_1_mm_interconnect_0_cmd_demux
+# 
+# Top level modules:
+# 	Lab3_1_mm_interconnect_0_cmd_demux
+# End time: 13:00:00 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter.sv"                                    -work my_slave_0_s0_burst_adapter    
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:00:00 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter.sv -work my_slave_0_s0_burst_adapter 
+# -- Compiling module altera_merlin_burst_adapter
+# 
+# Top level modules:
+# 	altera_merlin_burst_adapter
+# End time: 13:00:00 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_uncmpr.sv"                             -work my_slave_0_s0_burst_adapter    
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:00:01 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_uncmpr.sv -work my_slave_0_s0_burst_adapter 
+# -- Compiling module altera_merlin_burst_adapter_uncompressed_only
+# 
+# Top level modules:
+# 	altera_merlin_burst_adapter_uncompressed_only
+# End time: 13:00:01 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_13_1.sv"                               -work my_slave_0_s0_burst_adapter    
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:00:01 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_13_1.sv -work my_slave_0_s0_burst_adapter 
+# -- Compiling module altera_merlin_burst_adapter_burstwrap_increment
+# -- Compiling module altera_merlin_burst_adapter_adder
+# -- Compiling module altera_merlin_burst_adapter_subtractor
+# -- Compiling module altera_merlin_burst_adapter_min
+# -- Compiling module altera_merlin_burst_adapter_13_1
+# 
+# Top level modules:
+# 	altera_merlin_burst_adapter_13_1
+# End time: 13:00:01 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv"                                -work my_slave_0_s0_burst_adapter    
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:00:02 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv -work my_slave_0_s0_burst_adapter 
+# -- Compiling module altera_merlin_burst_adapter_new
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(500): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(501): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(502): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(503): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(504): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(505): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(506): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(507): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(508): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(509): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(511): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(512): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(513): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(514): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(515): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(516): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(517): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(518): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(519): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(520): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(521): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(522): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(523): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(526): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(527): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(614): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(615): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(616): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(617): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(618): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(619): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(620): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(621): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(622): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(623): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(624): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(625): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(746): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(762): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(860): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(861): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(862): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(863): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(864): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(865): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(866): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(867): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(900): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(901): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(902): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(903): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(940): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(942): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(945): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(947): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(1040): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(1041): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(1042): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(1043): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(1044): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(1045): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(1046): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(1047): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(1048): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(1049): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(1084): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(1085): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(1086): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(1087): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(1088): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(1089): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(1104): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(1106): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(1206): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(1207): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(1208): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(1209): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(1210): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(1211): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(1212): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(1213): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(1214): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(1215): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(1216): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(1256): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(1257): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(1258): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(1259): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(1260): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(1261): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(1291): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_adapter_new.sv(1294): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# 	altera_merlin_burst_adapter_new
+# End time: 13:00:02 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 92
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_incr_burst_converter.sv"                                    -work my_slave_0_s0_burst_adapter    
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:00:02 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_incr_burst_converter.sv -work my_slave_0_s0_burst_adapter 
+# -- Compiling module altera_incr_burst_converter
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_incr_burst_converter.sv(266): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_incr_burst_converter.sv(268): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_incr_burst_converter.sv(283): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_incr_burst_converter.sv(285): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# 	altera_incr_burst_converter
+# End time: 13:00:02 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_wrap_burst_converter.sv"                                    -work my_slave_0_s0_burst_adapter    
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:00:02 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_wrap_burst_converter.sv -work my_slave_0_s0_burst_adapter 
+# -- Compiling module altera_wrap_burst_converter
+# 
+# Top level modules:
+# 	altera_wrap_burst_converter
+# End time: 13:00:02 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_default_burst_converter.sv"                                 -work my_slave_0_s0_burst_adapter    
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:00:02 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_default_burst_converter.sv -work my_slave_0_s0_burst_adapter 
+# -- Compiling module altera_default_burst_converter
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_default_burst_converter.sv(102): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# 	altera_default_burst_converter
+# End time: 13:00:02 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_address_alignment.sv"                                -work my_slave_0_s0_burst_adapter    
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:00:02 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_address_alignment.sv -work my_slave_0_s0_burst_adapter 
+# -- Compiling module altera_merlin_address_alignment
+# 
+# Top level modules:
+# 	altera_merlin_address_alignment
+# End time: 13:00:02 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_avalon_st_pipeline_stage.sv"                                -work my_slave_0_s0_burst_adapter    
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:00:02 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_avalon_st_pipeline_stage.sv -work my_slave_0_s0_burst_adapter 
+# -- Compiling module altera_avalon_st_pipeline_stage
+# 
+# Top level modules:
+# 	altera_avalon_st_pipeline_stage
+# End time: 13:00:02 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_avalon_st_pipeline_base.v"                                  -work my_slave_0_s0_burst_adapter    
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:00:02 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_avalon_st_pipeline_base.v -work my_slave_0_s0_burst_adapter 
+# -- Compiling module altera_avalon_st_pipeline_base
+# 
+# Top level modules:
+# 	altera_avalon_st_pipeline_base
+# End time: 13:00:02 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/Lab3_1_mm_interconnect_0_router_002.sv"                            -work router_002                     
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:00:02 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/Lab3_1_mm_interconnect_0_router_002.sv -work router_002 
+# -- Compiling module Lab3_1_mm_interconnect_0_router_002_default_decode
+# -- Compiling module Lab3_1_mm_interconnect_0_router_002
+# 
+# Top level modules:
+# 	Lab3_1_mm_interconnect_0_router_002
+# End time: 13:00:03 on May 25,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/Lab3_1_mm_interconnect_0_router_001.sv"                            -work router_001                     
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:00:03 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/Lab3_1_mm_interconnect_0_router_001.sv -work router_001 
+# -- Compiling module Lab3_1_mm_interconnect_0_router_001_default_decode
+# -- Compiling module Lab3_1_mm_interconnect_0_router_001
+# 
+# Top level modules:
+# 	Lab3_1_mm_interconnect_0_router_001
+# End time: 13:00:03 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/Lab3_1_mm_interconnect_0_router.sv"                                -work router                         
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:00:03 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/Lab3_1_mm_interconnect_0_router.sv -work router 
+# -- Compiling module Lab3_1_mm_interconnect_0_router_default_decode
+# -- Compiling module Lab3_1_mm_interconnect_0_router
+# 
+# Top level modules:
+# 	Lab3_1_mm_interconnect_0_router
+# End time: 13:00:03 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog     "C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_avalon_sc_fifo.v"                                           -work my_slave_0_s0_agent_rsp_fifo   
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:00:03 on May 25,2021
+# vlog -reportprogress 300 C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_avalon_sc_fifo.v -work my_slave_0_s0_agent_rsp_fifo 
+# -- Compiling module altera_avalon_sc_fifo
+# 
+# Top level modules:
+# 	altera_avalon_sc_fifo
+# End time: 13:00:03 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_slave_agent.sv"                                      -work my_slave_0_s0_agent            
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:00:03 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_slave_agent.sv -work my_slave_0_s0_agent 
+# -- Compiling module altera_merlin_slave_agent
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_slave_agent.sv(618): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_slave_agent.sv(488): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_slave_agent.sv(489): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_slave_agent.sv(490): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_slave_agent.sv(491): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_slave_agent.sv(34): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# 
+# Top level modules:
+# 	altera_merlin_slave_agent
+# End time: 13:00:03 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 6
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_uncompressor.sv"                               -work my_slave_0_s0_agent            
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:00:03 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_burst_uncompressor.sv -work my_slave_0_s0_agent 
+# -- Compiling module altera_merlin_burst_uncompressor
+# 
+# Top level modules:
+# 	altera_merlin_burst_uncompressor
+# End time: 13:00:03 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_master_agent.sv"                                     -work my_master_0_m0_agent           
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:00:03 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_master_agent.sv -work my_master_0_m0_agent 
+# -- Compiling module altera_merlin_master_agent
+# 
+# Top level modules:
+# 	altera_merlin_master_agent
+# End time: 13:00:03 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_slave_translator.sv"                                 -work my_slave_0_s0_translator       
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:00:03 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_slave_translator.sv -work my_slave_0_s0_translator 
+# -- Compiling module altera_merlin_slave_translator
+# 
+# Top level modules:
+# 	altera_merlin_slave_translator
+# End time: 13:00:03 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_master_translator.sv"                                -work my_master_0_m0_translator      
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:00:03 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/altera_merlin_master_translator.sv -work my_master_0_m0_translator 
+# -- Compiling module altera_merlin_master_translator
+# 
+# Top level modules:
+# 	altera_merlin_master_translator
+# End time: 13:00:03 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog     "C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/Lab3_1_mm_interconnect_0.v"                                        -work mm_interconnect_0              
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:00:04 on May 25,2021
+# vlog -reportprogress 300 C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/Lab3_1_mm_interconnect_0.v -work mm_interconnect_0 
+# -- Compiling module Lab3_1_mm_interconnect_0
+# 
+# Top level modules:
+# 	Lab3_1_mm_interconnect_0
+# End time: 13:00:04 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/my_slave.sv"                                                       -work my_slave_0                     
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:00:04 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/my_slave.sv -work my_slave_0 
+# -- Compiling module my_slave
+# 
+# Top level modules:
+# 	my_slave
+# End time: 13:00:04 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/my_slaveWS.sv"                                                     -work my_slaveWS_0                   
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:00:04 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/my_slaveWS.sv -work my_slaveWS_0 
+# -- Compiling module my_slaveWS
+# 
+# Top level modules:
+# 	my_slaveWS
+# End time: 13:00:04 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv "C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/my_master.sv"                                                      -work my_master_0                    
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:00:04 on May 25,2021
+# vlog -reportprogress 300 -sv C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/submodules/my_master.sv -work my_master_0 
+# -- Compiling module my_master
+# 
+# Top level modules:
+# 	my_master
+# End time: 13:00:04 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog     "C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/Lab3_1.v"                                                                                                          
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:00:04 on May 25,2021
+# vlog -reportprogress 300 C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/Lab3_1.v 
+# -- Compiling module Lab3_1
+# 
+# Top level modules:
+# 	Lab3_1
+# End time: 13:00:04 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Intel_trn/Baraev/Q_PD/Lab3 {C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_top.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:00:04 on May 25,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Intel_trn/Baraev/Q_PD/Lab3" C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_top.sv 
+# -- Compiling module Lab3_top
+# 
+# Top level modules:
+# 	Lab3_top
+# End time: 13:00:04 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Intel_trn/Baraev/Q_PD/Lab3 {C:/Intel_trn/Baraev/Q_PD/Lab3/tb_Lab3_top.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:00:04 on May 25,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Intel_trn/Baraev/Q_PD/Lab3" C:/Intel_trn/Baraev/Q_PD/Lab3/tb_Lab3_top.sv 
+# -- Compiling module tb_Lab3_top
+# 
+# Top level modules:
+# 	tb_Lab3_top
+# End time: 13:00:04 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -L error_adapter_0 -L avalon_st_adapter_001 -L avalon_st_adapter -L my_slave_0_s0_rsp_width_adapter -L rsp_mux -L rsp_demux -L cmd_mux -L cmd_demux -L my_slave_0_s0_burst_adapter -L router_002 -L router_001 -L router -L my_slave_0_s0_agent_rsp_fifo -L my_slave_0_s0_agent -L my_master_0_m0_agent -L my_slave_0_s0_translator -L my_master_0_m0_translator -L mm_interconnect_0 -L my_slave_0 -L my_slaveWS_0 -L my_master_0 -voptargs="+acc"  tb_Lab3_top
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -L error_adapter_0 -L avalon_st_adapter_001 -L avalon_st_adapter -L my_slave_0_s0_rsp_width_adapter -L rsp_mux -L rsp_demux -L cmd_mux -L cmd_demux -L my_slave_0_s0_burst_adapter -L router_002 -L router_001 -L router -L my_slave_0_s0_agent_rsp_fifo -L my_slave_0_s0_agent -L my_master_0_m0_agent -L my_slave_0_s0_translator -L my_master_0_m0_translator -L mm_interconnect_0 -L my_slave_0 -L my_slaveWS_0 -L my_master_0 -voptargs=""+acc"" tb_Lab3_top 
+# Start time: 13:00:04 on May 25,2021
+# Loading sv_std.std
+# Loading work.tb_Lab3_top
+# Loading work.Lab3_top
+# Loading work.Lab3_1
+# Loading my_master_0.my_master
+# Loading my_slaveWS_0.my_slaveWS
+# Loading my_slave_0.my_slave
+# Loading mm_interconnect_0.Lab3_1_mm_interconnect_0
+# Loading my_master_0_m0_translator.altera_merlin_master_translator
+# Loading my_slave_0_s0_translator.altera_merlin_slave_translator
+# Loading my_master_0_m0_agent.altera_merlin_master_agent
+# Loading my_slave_0_s0_agent.altera_merlin_slave_agent
+# Loading my_slave_0_s0_agent.altera_merlin_burst_uncompressor
+# Loading my_slave_0_s0_agent_rsp_fifo.altera_avalon_sc_fifo
+# Loading router.Lab3_1_mm_interconnect_0_router
+# Loading router.Lab3_1_mm_interconnect_0_router_default_decode
+# Loading router_001.Lab3_1_mm_interconnect_0_router_001
+# Loading router_001.Lab3_1_mm_interconnect_0_router_001_default_decode
+# Loading router_002.Lab3_1_mm_interconnect_0_router_002
+# Loading router_002.Lab3_1_mm_interconnect_0_router_002_default_decode
+# Loading my_slave_0_s0_burst_adapter.altera_merlin_burst_adapter
+# Loading cmd_demux.Lab3_1_mm_interconnect_0_cmd_demux
+# Loading cmd_mux.Lab3_1_mm_interconnect_0_cmd_mux
+# Loading rsp_demux.Lab3_1_mm_interconnect_0_rsp_demux
+# Loading rsp_mux.Lab3_1_mm_interconnect_0_rsp_mux
+# Loading rsp_mux.altera_merlin_arbitrator
+# Loading rsp_mux.altera_merlin_arb_adder
+# Loading my_slave_0_s0_rsp_width_adapter.altera_merlin_width_adapter
+# Loading avalon_st_adapter.Lab3_1_mm_interconnect_0_avalon_st_adapter
+# Loading error_adapter_0.Lab3_1_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# Loading avalon_st_adapter_001.Lab3_1_mm_interconnect_0_avalon_st_adapter_001
+# Loading error_adapter_0.Lab3_1_mm_interconnect_0_avalon_st_adapter_001_error_adapter_0
+# Loading my_slave_0_s0_burst_adapter.altera_merlin_burst_adapter_uncompressed_only
+# Loading my_slave_0_s0_rsp_width_adapter.altera_merlin_burst_uncompressor
+# ** Warning: (vsim-8311) System Verilog assertions are supported only in Questasim.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : C:/Intel_trn/Baraev/Q_PD/Lab3/tb_Lab3_top.sv(17)
+#    Time: 1200 ns  Iteration: 0  Instance: /tb_Lab3_top
+# Break in Module tb_Lab3_top at C:/Intel_trn/Baraev/Q_PD/Lab3/tb_Lab3_top.sv line 17
+do C:/Intel_trn/Baraev/Q_PD/Lab3/waveLab3.do
+restart
+run -all
+# ** Note: $stop    : C:/Intel_trn/Baraev/Q_PD/Lab3/tb_Lab3_top.sv(17)
+#    Time: 1200 ns  Iteration: 0  Instance: /tb_Lab3_top
+# Break in Module tb_Lab3_top at C:/Intel_trn/Baraev/Q_PD/Lab3/tb_Lab3_top.sv line 17
+# End time: 13:14:44 on May 25,2021, Elapsed time: 0:14:40
+# Errors: 0, Warnings: 1

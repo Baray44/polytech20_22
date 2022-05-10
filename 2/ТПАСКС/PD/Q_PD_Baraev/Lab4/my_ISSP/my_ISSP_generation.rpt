@@ -1,0 +1,15 @@
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\Intel_trn\Baraev\Q_PD\Lab4\my_ISSP.qsys --synthesis=VERILOG --output-directory=C:\Intel_trn\Baraev\Q_PD\Lab4\my_ISSP\synthesis --family="Cyclone IV E" --part=EP4CE6E22C8
+Progress: Loading Lab4/my_ISSP.qsys
+Progress: Reading input file
+Progress: Adding in_system_sources_probes_0 [altera_in_system_sources_probes 16.1]
+Progress: Parameterizing module in_system_sources_probes_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: my_ISSP: Generating my_ISSP "my_ISSP" for QUARTUS_SYNTH
+Info: in_system_sources_probes_0: "my_ISSP" instantiated altera_in_system_sources_probes "in_system_sources_probes_0"
+Info: my_ISSP: Done "my_ISSP" with 2 modules, 2 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

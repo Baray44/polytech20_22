@@ -1,0 +1,80 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Intel_trn/Verilog_SV/labs/lab5/lab5_1/simulation/qsim
+vhard_block
+Z0 !s110 1612182530
+!i10b 1
+!s100 ]K=1DVPIm6<;M^_7d81L=0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ILFD=^dcmPBeA[UdcQR<YY1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/pepyachka/Downloads/lab5/lab5/lab5_1/simulation/qsim
+Z4 w1612182528
+Z5 8lab5_1.vo
+Z6 Flab5_1.vo
+!i122 14
+L0 1234 34
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1612182530.000000
+Z9 !s107 lab5_1.vo|
+Z10 !s90 -work|work|lab5_1.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vlab5_1
+R0
+!i10b 1
+!s100 ]1kJ;n_ZnB:iUE[DUJ6931
+R1
+IDKb8[D_[gWj:VLb_<DZRb2
+R2
+R3
+R4
+R5
+R6
+!i122 14
+L0 32 1201
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vlab5_1_vlg_vec_tst
+R0
+!i10b 1
+!s100 [?7A8YRD7eT0M_WQBoQTz2
+R1
+ICYOXB_Q0O44TdcNB>5Sn<1
+R2
+R3
+w1612182526
+8lab5_1.vwf.vt
+Flab5_1.vwf.vt
+!i122 15
+L0 30 129
+R7
+r1
+!s85 0
+31
+R8
+!s107 lab5_1.vwf.vt|
+!s90 -work|work|lab5_1.vwf.vt|
+!i113 1
+R11
+R12

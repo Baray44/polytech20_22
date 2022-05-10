@@ -1,0 +1,22 @@
+# system info Lab2_1 on 2021.05.21.16:11:20
+system_info:
+name,value
+DEVICE,EP4CE6E22C8
+DEVICE_FAMILY,Cyclone IV E
+GENERATION_ID,1621599080
+#
+#
+# Files generated for Lab2_1 on 2021.05.21.16:11:20
+files:
+filepath,kind,attributes,module,is_top
+simulation/Lab2_1.v,VERILOG,,Lab2_1,true
+simulation/submodules/MyST_sink.sv,SYSTEM_VERILOG,,MyST_sink,false
+simulation/submodules/MyST_source.sv,SYSTEM_VERILOG,,MyST_source,false
+simulation/submodules/altera_avalon_sc_fifo.v,VERILOG,,altera_avalon_sc_fifo,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+Lab2_1.MyST_sink_0,MyST_sink
+Lab2_1.MyST_source_0,MyST_source
+Lab2_1.sc_fifo_0,altera_avalon_sc_fifo

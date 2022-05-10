@@ -1,0 +1,6 @@
+@echo off
+set MATLAB=D:\Program Files\MATLAB
+
+call  "\\OPTIMUSgang\D$\Program Files\MATLAB\bin\win64\checkMATLABRootForDriveMap.exe" "\\OPTIMUSgang\D$\Program Files\MATLAB"  > mlEnv.txt
+for /f %%a in (mlEnv.txt) do set "%%a"\n
+"%MATLAB%\bin\win64\gmake" -f lab4_block.mk MATLAB_ROOT=%MATLAB_ROOT% ALT_MATLAB_ROOT=%ALT_MATLAB_ROOT% MATLAB_BIN=%MATLAB_BIN% ALT_MATLAB_BIN=%ALT_MATLAB_BIN%  ISPROTECTINGMODEL=NOTPROTECTING RSIM_SOLVER_SELECTION=2 OPTS="-DSLMSG_ALLOW_SYSTEM_ALLOC -DTGTCONN -DON_TARGET_WAIT_FOR_START=0"

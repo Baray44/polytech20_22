@@ -1,0 +1,83 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Intel_trn/Baraev/Q_PD/Lab3/simulation/modelsim
+vLab3_1
+Z1 !s110 1621936804
+!i10b 1
+!s100 YCLaVeHQj<POR7SXMSYc93
+INV^=[`B5NG4RMRPnjG54m3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1621935651
+8C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/Lab3_1.v
+FC:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/Lab3_1.v
+L0 6
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1621936804.000000
+!s107 C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/Lab3_1.v|
+!s90 -reportprogress|300|C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_1/simulation/Lab3_1.v|
+!i113 1
+Z5 tCvgOpt 0
+n@lab3_1
+vLab3_top
+Z6 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+R1
+!i10b 1
+!s100 Zf]X_R;MfaW]6j::^aHJV2
+I?fG8KW<c0NkAPjTCg_do[1
+R2
+!s105 Lab3_top_sv_unit
+S1
+R0
+w1618588673
+8C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_top.sv
+FC:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_top.sv
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_top.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Intel_trn/Baraev/Q_PD/Lab3|C:/Intel_trn/Baraev/Q_PD/Lab3/Lab3_top.sv|
+!i113 1
+Z7 o-sv -work work
+Z8 !s92 -sv -work work +incdir+C:/Intel_trn/Baraev/Q_PD/Lab3
+R5
+n@lab3_top
+vtb_Lab3_top
+R6
+R1
+!i10b 1
+!s100 ITN71kSUVKBNTo:6Sz?=H0
+Ic]b[VafMcVGRbUWl==J_k0
+R2
+!s105 tb_Lab3_top_sv_unit
+S1
+R0
+w1618588712
+8C:/Intel_trn/Baraev/Q_PD/Lab3/tb_Lab3_top.sv
+FC:/Intel_trn/Baraev/Q_PD/Lab3/tb_Lab3_top.sv
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Intel_trn/Baraev/Q_PD/Lab3/tb_Lab3_top.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Intel_trn/Baraev/Q_PD/Lab3|C:/Intel_trn/Baraev/Q_PD/Lab3/tb_Lab3_top.sv|
+!i113 1
+R7
+R8
+R5
+ntb_@lab3_top

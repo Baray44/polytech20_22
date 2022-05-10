@@ -1,0 +1,1660 @@
+Model {
+  Name			  "Input_Reordering"
+  Version		  7.0
+  MdlSubVersion		  0
+  GraphicalInterface {
+    NumRootInports	    0
+    NumRootOutports	    0
+    ParameterArgumentNames  ""
+    ComputedModelVersion    "1.9"
+    NumModelReferences	    0
+    NumTestPointedSignals   0
+  }
+  SavedCharacterEncoding  "windows-1252"
+  SaveDefaultBlockParams  on
+  SampleTimeColors	  off
+  LibraryLinkDisplay	  "none"
+  WideLines		  off
+  ShowLineDimensions	  off
+  ShowPortDataTypes	  off
+  ShowLoopsOnError	  on
+  IgnoreBidirectionalLines off
+  ShowStorageClass	  off
+  ShowTestPointIcons	  on
+  ShowViewerIcons	  on
+  SortedOrder		  off
+  ExecutionContextIcon	  off
+  ShowLinearizationAnnotations on
+  ScopeRefreshTime	  0.035000
+  OverrideScopeRefreshTime on
+  DisableAllScopes	  off
+  DataTypeOverride	  "UseLocalSettings"
+  MinMaxOverflowLogging	  "UseLocalSettings"
+  MinMaxOverflowArchiveMode "Overwrite"
+  BlockNameDataTip	  off
+  BlockParametersDataTip  off
+  BlockDescriptionStringDataTip	off
+  ToolBar		  on
+  StatusBar		  on
+  BrowserShowLibraryLinks off
+  BrowserLookUnderMasks	  off
+  InitFcn		  "%% DSPBuilder Start\nalt_dspbuilder_update_model(bdroot)\n%% DSPBuilder End\n"
+  Created		  "Fri Sep 19 15:05:15 2008"
+  Creator		  "davlin"
+  UpdateHistory		  "UpdateHistoryNever"
+  ModifiedByFormat	  "%<Auto>"
+  LastModifiedBy	  "davlin"
+  ModifiedDateFormat	  "%<Auto>"
+  LastModifiedDate	  "Tue Apr 21 16:22:29 2009"
+  RTWModifiedTimeStamp	  0
+  ModelVersionFormat	  "1.%<AutoIncrement:9>"
+  ConfigurationManager	  "None"
+  SimulationMode	  "normal"
+  LinearizationMsg	  "none"
+  Profile		  off
+  ParamWorkspaceSource	  "MATLABWorkspace"
+  AccelSystemTargetFile	  "accel.tlc"
+  AccelTemplateMakefile	  "accel_default_tmf"
+  AccelMakeCommand	  "make_rtw"
+  TryForcingSFcnDF	  off
+  RecordCoverage	  off
+  CovPath		  "/"
+  CovSaveName		  "covdata"
+  CovMetricSettings	  "dw"
+  CovNameIncrementing	  off
+  CovHtmlReporting	  on
+  covSaveCumulativeToWorkspaceVar on
+  CovSaveSingleToWorkspaceVar on
+  CovCumulativeVarName	  "covCumulativeData"
+  CovCumulativeReport	  off
+  CovReportOnPause	  on
+  ExtModeBatchMode	  off
+  ExtModeEnableFloating	  on
+  ExtModeTrigType	  "manual"
+  ExtModeTrigMode	  "normal"
+  ExtModeTrigPort	  "1"
+  ExtModeTrigElement	  "any"
+  ExtModeTrigDuration	  1000
+  ExtModeTrigDurationFloating "auto"
+  ExtModeTrigHoldOff	  0
+  ExtModeTrigDelay	  0
+  ExtModeTrigDirection	  "rising"
+  ExtModeTrigLevel	  0
+  ExtModeArchiveMode	  "off"
+  ExtModeAutoIncOneShot	  off
+  ExtModeIncDirWhenArm	  off
+  ExtModeAddSuffixToVar	  off
+  ExtModeWriteAllDataToWs off
+  ExtModeArmWhenConnect	  on
+  ExtModeSkipDownloadWhenConnect off
+  ExtModeLogAll		  on
+  ExtModeAutoUpdateStatusClock on
+  BufferReuse		  on
+  ShowModelReferenceBlockVersion off
+  ShowModelReferenceBlockIO off
+  Array {
+    Type		    "Handle"
+    Dimension		    1
+    Simulink.ConfigSet {
+      $ObjectID		      1
+      Version		      "1.3.0"
+      Array {
+	Type			"Handle"
+	Dimension		7
+	Simulink.SolverCC {
+	  $ObjectID		  2
+	  Version		  "1.3.0"
+	  StartTime		  "0.0"
+	  StopTime		  "10.0"
+	  AbsTol		  "auto"
+	  FixedStep		  "auto"
+	  InitialStep		  "auto"
+	  MaxNumMinSteps	  "-1"
+	  MaxOrder		  5
+	  ConsecutiveZCsStepRelTol "10*128*eps"
+	  MaxConsecutiveZCs	  "1000"
+	  ExtrapolationOrder	  4
+	  NumberNewtonIterations  1
+	  MaxStep		  "auto"
+	  MinStep		  "auto"
+	  MaxConsecutiveMinStep	  "1"
+	  RelTol		  "1e-3"
+	  SolverMode		  "Auto"
+	  Solver		  "FixedStepDiscrete"
+	  SolverName		  "FixedStepDiscrete"
+	  ZeroCrossControl	  "UseLocalSettings"
+	  AlgebraicLoopSolver	  "TrustRegion"
+	  SolverResetMethod	  "Fast"
+	  PositivePriorityOrder	  off
+	  AutoInsertRateTranBlk	  off
+	  SampleTimeConstraint	  "Unconstrained"
+	  RateTranMode		  "Deterministic"
+	}
+	Simulink.DataIOCC {
+	  $ObjectID		  3
+	  Version		  "1.3.0"
+	  Decimation		  "1"
+	  ExternalInput		  "[t, u]"
+	  FinalStateName	  "xFinal"
+	  InitialState		  "xInitial"
+	  LimitDataPoints	  on
+	  MaxDataPoints		  "1000"
+	  LoadExternalInput	  off
+	  LoadInitialState	  off
+	  SaveFinalState	  off
+	  SaveFormat		  "Array"
+	  SaveOutput		  on
+	  SaveState		  off
+	  SignalLogging		  on
+	  InspectSignalLogs	  off
+	  SaveTime		  on
+	  StateSaveName		  "xout"
+	  TimeSaveName		  "tout"
+	  OutputSaveName	  "yout"
+	  SignalLoggingName	  "logsout"
+	  OutputOption		  "RefineOutputTimes"
+	  OutputTimes		  "[]"
+	  Refine		  "1"
+	}
+	Simulink.OptimizationCC {
+	  $ObjectID		  4
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    5
+	    Cell		    "ZeroExternalMemoryAtStartup"
+	    Cell		    "ZeroInternalMemoryAtStartup"
+	    Cell		    "InitFltsAndDblsToZero"
+	    Cell		    "OptimizeModelRefInitCode"
+	    Cell		    "NoFixptDivByZeroProtection"
+	    PropName		    "DisabledProps"
+	  }
+	  Version		  "1.3.0"
+	  BlockReduction	  on
+	  BooleanDataType	  on
+	  ConditionallyExecuteInputs on
+	  InlineParams		  off
+	  InlineInvariantSignals  off
+	  OptimizeBlockIOStorage  on
+	  BufferReuse		  on
+	  EnforceIntegerDowncast  on
+	  ExpressionFolding	  on
+	  ExpressionDepthLimit	  2147483647
+	  FoldNonRolledExpr	  on
+	  LocalBlockOutputs	  on
+	  RollThreshold		  5
+	  SystemCodeInlineAuto	  off
+	  StateBitsets		  off
+	  DataBitsets		  off
+	  UseTempVars		  off
+	  ZeroExternalMemoryAtStartup on
+	  ZeroInternalMemoryAtStartup on
+	  InitFltsAndDblsToZero	  on
+	  NoFixptDivByZeroProtection off
+	  EfficientFloat2IntCast  off
+	  OptimizeModelRefInitCode off
+	  LifeSpan		  "inf"
+	  BufferReusableBoundary  on
+	  SimCompilerOptimization "Off"
+	  AccelVerboseBuild	  off
+	}
+	Simulink.DebuggingCC {
+	  $ObjectID		  5
+	  Version		  "1.3.0"
+	  RTPrefix		  "error"
+	  ConsistencyChecking	  "none"
+	  ArrayBoundsChecking	  "none"
+	  SignalInfNanChecking	  "none"
+	  SignalRangeChecking	  "none"
+	  ReadBeforeWriteMsg	  "UseLocalSettings"
+	  WriteAfterWriteMsg	  "UseLocalSettings"
+	  WriteAfterReadMsg	  "UseLocalSettings"
+	  AlgebraicLoopMsg	  "warning"
+	  ArtificialAlgebraicLoopMsg "warning"
+	  SaveWithDisabledLinksMsg "warning"
+	  SaveWithParameterizedLinksMsg	"warning"
+	  CheckSSInitialOutputMsg on
+	  CheckExecutionContextPreStartOutputMsg off
+	  CheckExecutionContextRuntimeOutputMsg	off
+	  SignalResolutionControl "UseLocalSettings"
+	  BlockPriorityViolationMsg "warning"
+	  MinStepSizeMsg	  "warning"
+	  TimeAdjustmentMsg	  "none"
+	  MaxConsecutiveZCsMsg	  "error"
+	  SolverPrmCheckMsg	  "warning"
+	  InheritedTsInSrcMsg	  "warning"
+	  DiscreteInheritContinuousMsg "warning"
+	  MultiTaskDSMMsg	  "error"
+	  MultiTaskCondExecSysMsg "error"
+	  MultiTaskRateTransMsg	  "error"
+	  SingleTaskRateTransMsg  "none"
+	  TasksWithSamePriorityMsg "warning"
+	  SigSpecEnsureSampleTimeMsg "warning"
+	  CheckMatrixSingularityMsg "none"
+	  IntegerOverflowMsg	  "warning"
+	  Int32ToFloatConvMsg	  "warning"
+	  ParameterDowncastMsg	  "error"
+	  ParameterOverflowMsg	  "error"
+	  ParameterUnderflowMsg	  "none"
+	  ParameterPrecisionLossMsg "warning"
+	  ParameterTunabilityLossMsg "warning"
+	  UnderSpecifiedDataTypeMsg "none"
+	  UnnecessaryDatatypeConvMsg "none"
+	  VectorMatrixConversionMsg "none"
+	  InvalidFcnCallConnMsg	  "error"
+	  FcnCallInpInsideContextMsg "Use local settings"
+	  SignalLabelMismatchMsg  "none"
+	  UnconnectedInputMsg	  "warning"
+	  UnconnectedOutputMsg	  "warning"
+	  UnconnectedLineMsg	  "warning"
+	  SFcnCompatibilityMsg	  "none"
+	  UniqueDataStoreMsg	  "none"
+	  BusObjectLabelMismatch  "warning"
+	  RootOutportRequireBusObject "warning"
+	  AssertControl		  "UseLocalSettings"
+	  EnableOverflowDetection off
+	  ModelReferenceIOMsg	  "none"
+	  ModelReferenceVersionMismatchMessage "none"
+	  ModelReferenceIOMismatchMessage "none"
+	  ModelReferenceCSMismatchMessage "none"
+	  ModelReferenceSimTargetVerbose off
+	  UnknownTsInhSupMsg	  "warning"
+	  ModelReferenceDataLoggingMessage "warning"
+	  ModelReferenceSymbolNameMessage "warning"
+	  ModelReferenceExtraNoncontSigs "error"
+	  StateNameClashWarn	  "warning"
+	  StrictBusMsg		  "Warning"
+	  LoggingUnavailableSignals "error"
+	}
+	Simulink.HardwareCC {
+	  $ObjectID		  6
+	  Version		  "1.3.0"
+	  ProdBitPerChar	  8
+	  ProdBitPerShort	  16
+	  ProdBitPerInt		  32
+	  ProdBitPerLong	  32
+	  ProdIntDivRoundTo	  "Undefined"
+	  ProdEndianess		  "Unspecified"
+	  ProdWordSize		  32
+	  ProdShiftRightIntArith  on
+	  ProdHWDeviceType	  "32-bit Generic"
+	  TargetBitPerChar	  8
+	  TargetBitPerShort	  16
+	  TargetBitPerInt	  32
+	  TargetBitPerLong	  32
+	  TargetShiftRightIntArith on
+	  TargetIntDivRoundTo	  "Undefined"
+	  TargetEndianess	  "Unspecified"
+	  TargetWordSize	  32
+	  TargetTypeEmulationWarnSuppressLevel 0
+	  TargetPreprocMaxBitsSint 32
+	  TargetPreprocMaxBitsUint 32
+	  TargetHWDeviceType	  "Specified"
+	  TargetUnknown		  off
+	  ProdEqTarget		  on
+	}
+	Simulink.ModelReferenceCC {
+	  $ObjectID		  7
+	  Version		  "1.3.0"
+	  UpdateModelReferenceTargets "IfOutOfDateOrStructuralChange"
+	  CheckModelReferenceTargetMessage "error"
+	  ModelReferenceNumInstancesAllowed "Multi"
+	  ModelReferencePassRootInputsByReference on
+	  ModelReferenceMinAlgLoopOccurrences off
+	}
+	Simulink.RTWCC {
+	  $BackupClass		  "Simulink.RTWCC"
+	  $ObjectID		  8
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    2
+	    Cell		    "IncludeHyperlinkInReport"
+	    Cell		    "GenerateTraceInfo"
+	    PropName		    "DisabledProps"
+	  }
+	  Version		  "1.3.0"
+	  SystemTargetFile	  "grt.tlc"
+	  GenCodeOnly		  off
+	  MakeCommand		  "make_rtw"
+	  GenerateMakefile	  on
+	  TemplateMakefile	  "grt_default_tmf"
+	  GenerateReport	  off
+	  SaveLog		  off
+	  RTWVerbose		  on
+	  RetainRTWFile		  off
+	  ProfileTLC		  off
+	  TLCDebug		  off
+	  TLCCoverage		  off
+	  TLCAssert		  off
+	  ProcessScriptMode	  "Default"
+	  ConfigurationMode	  "Optimized"
+	  ConfigAtBuild		  off
+	  IncludeHyperlinkInReport off
+	  LaunchReport		  off
+	  TargetLang		  "C"
+	  IncludeBusHierarchyInRTWFileBlockHierarchyMap	off
+	  IncludeERTFirstTime	  off
+	  GenerateTraceInfo	  off
+	  RTWCompilerOptimization "Off"
+	  Array {
+	    Type		    "Handle"
+	    Dimension		    2
+	    Simulink.CodeAppCC {
+	      $ObjectID		      9
+	      Array {
+		Type			"Cell"
+		Dimension		16
+		Cell			"IgnoreCustomStorageClasses"
+		Cell			"InsertBlockDesc"
+		Cell			"SFDataObjDesc"
+		Cell			"SimulinkDataObjDesc"
+		Cell			"DefineNamingRule"
+		Cell			"SignalNamingRule"
+		Cell			"ParamNamingRule"
+		Cell			"InlinedPrmAccess"
+		Cell			"CustomSymbolStr"
+		Cell			"CustomSymbolStrGlobalVar"
+		Cell			"CustomSymbolStrType"
+		Cell			"CustomSymbolStrField"
+		Cell			"CustomSymbolStrFcn"
+		Cell			"CustomSymbolStrBlkIO"
+		Cell			"CustomSymbolStrTmpVar"
+		Cell			"CustomSymbolStrMacro"
+		PropName		"DisabledProps"
+	      }
+	      Version		      "1.3.0"
+	      ForceParamTrailComments off
+	      GenerateComments	      on
+	      IgnoreCustomStorageClasses on
+	      IncHierarchyInIds	      off
+	      MaxIdLength	      31
+	      PreserveName	      off
+	      PreserveNameWithParent  off
+	      ShowEliminatedStatement off
+	      IncAutoGenComments      off
+	      SimulinkDataObjDesc     off
+	      SFDataObjDesc	      off
+	      IncDataTypeInIds	      off
+	      MangleLength	      1
+	      CustomSymbolStrGlobalVar "$R$N$M"
+	      CustomSymbolStrType     "$N$R$M"
+	      CustomSymbolStrField    "$N$M"
+	      CustomSymbolStrFcn      "$R$N$M$F"
+	      CustomSymbolStrBlkIO    "rtb_$N$M"
+	      CustomSymbolStrTmpVar   "$N$M"
+	      CustomSymbolStrMacro    "$R$N$M"
+	      DefineNamingRule	      "None"
+	      ParamNamingRule	      "None"
+	      SignalNamingRule	      "None"
+	      InsertBlockDesc	      off
+	      SimulinkBlockComments   on
+	      EnableCustomComments    off
+	      InlinedPrmAccess	      "Literals"
+	      ReqsInCode	      off
+	    }
+	    Simulink.GRTTargetCC {
+	      $BackupClass	      "Simulink.TargetCC"
+	      $ObjectID		      10
+	      Array {
+		Type			"Cell"
+		Dimension		15
+		Cell			"IncludeMdlTerminateFcn"
+		Cell			"CombineOutputUpdateFcns"
+		Cell			"SuppressErrorStatus"
+		Cell			"ERTCustomFileBanners"
+		Cell			"GenerateSampleERTMain"
+		Cell			"GenerateTestInterfaces"
+		Cell			"ModelStepFunctionPrototypeControlCompliant"
+		Cell			"MultiInstanceERTCode"
+		Cell			"PurelyIntegerCode"
+		Cell			"SupportNonFinite"
+		Cell			"SupportComplex"
+		Cell			"SupportAbsoluteTime"
+		Cell			"SupportContinuousTime"
+		Cell			"SupportNonInlinedSFcns"
+		Cell			"PortableWordSizes"
+		PropName		"DisabledProps"
+	      }
+	      Version		      "1.3.0"
+	      TargetFcnLib	      "ansi_tfl_table_tmw.mat"
+	      TargetLibSuffix	      ""
+	      TargetPreCompLibLocation ""
+	      GenFloatMathFcnCalls    "ANSI_C"
+	      UtilityFuncGeneration   "Auto"
+	      GenerateFullHeader      on
+	      GenerateSampleERTMain   off
+	      GenerateTestInterfaces  off
+	      IsPILTarget	      off
+	      ModelReferenceCompliant on
+	      CompOptLevelCompliant   on
+	      IncludeMdlTerminateFcn  on
+	      CombineOutputUpdateFcns off
+	      SuppressErrorStatus     off
+	      IncludeFileDelimiter    "Auto"
+	      ERTCustomFileBanners    off
+	      SupportAbsoluteTime     on
+	      LogVarNameModifier      "rt_"
+	      MatFileLogging	      on
+	      MultiInstanceERTCode    off
+	      SupportNonFinite	      on
+	      SupportComplex	      on
+	      PurelyIntegerCode	      off
+	      SupportContinuousTime   on
+	      SupportNonInlinedSFcns  on
+	      EnableShiftOperators    on
+	      ParenthesesLevel	      "Nominal"
+	      PortableWordSizes	      off
+	      ModelStepFunctionPrototypeControlCompliant off
+	      ExtMode		      off
+	      ExtModeStaticAlloc      off
+	      ExtModeTesting	      off
+	      ExtModeStaticAllocSize  1000000
+	      ExtModeTransport	      0
+	      ExtModeMexFile	      "ext_comm"
+	      ExtModeIntrfLevel	      "Level1"
+	      RTWCAPISignals	      off
+	      RTWCAPIParams	      off
+	      RTWCAPIStates	      off
+	      GenerateASAP2	      off
+	    }
+	    PropName		    "Components"
+	  }
+	}
+	PropName		"Components"
+      }
+      Name		      "Configuration"
+      CurrentDlgPage	      "Solver"
+    }
+    PropName		    "ConfigurationSets"
+  }
+  Simulink.ConfigSet {
+    $PropName		    "ActiveConfigurationSet"
+    $ObjectID		    1
+  }
+  BlockDefaults {
+    Orientation		    "right"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    NamePlacement	    "normal"
+    FontName		    "Arial"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    ShowName		    on
+  }
+  BlockParameterDefaults {
+    Block {
+      BlockType		      Inport
+      Port		      "1"
+      UseBusObject	      off
+      BusObject		      "BusObject"
+      BusOutputAsStruct	      off
+      PortDimensions	      "-1"
+      SampleTime	      "-1"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      DataType		      "auto"
+      OutDataType	      "fixdt(1,16,0)"
+      OutScaling	      "[]"
+      SignalType	      "auto"
+      SamplingMode	      "auto"
+      LatchByDelayingOutsideSignal off
+      LatchByCopyingInsideSignal off
+      Interpolate	      on
+    }
+    Block {
+      BlockType		      Outport
+      Port		      "1"
+      UseBusObject	      off
+      BusObject		      "BusObject"
+      BusOutputAsStruct	      off
+      PortDimensions	      "-1"
+      SampleTime	      "-1"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      DataType		      "auto"
+      OutDataType	      "fixdt(1,16,0)"
+      OutScaling	      "[]"
+      SignalType	      "auto"
+      SamplingMode	      "auto"
+      OutputWhenDisabled      "held"
+      InitialOutput	      "[]"
+    }
+    Block {
+      BlockType		      "S-Function"
+      FunctionName	      "system"
+      SFunctionModules	      "''"
+      PortCounts	      "[]"
+    }
+    Block {
+      BlockType		      SubSystem
+      ShowPortLabels	      "FromPortIcon"
+      Permissions	      "ReadWrite"
+      PermitHierarchicalResolution "All"
+      TreatAsAtomicUnit	      off
+      SystemSampleTime	      "-1"
+      RTWFcnNameOpts	      "Auto"
+      RTWFileNameOpts	      "Auto"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      SimViewingDevice	      off
+      DataTypeOverride	      "UseLocalSettings"
+      MinMaxOverflowLogging   "UseLocalSettings"
+    }
+  }
+  AnnotationDefaults {
+    HorizontalAlignment	    "center"
+    VerticalAlignment	    "middle"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    FontName		    "Arial"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    UseDisplayTextAsClickCallback off
+  }
+  LineDefaults {
+    FontName		    "Arial"
+    FontSize		    9
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+  }
+  System {
+    Name		    "Input_Reordering"
+    Location		    [109, 128, 828, 907]
+    Open		    on
+    ModelBrowserVisibility  off
+    ModelBrowserWidth	    200
+    ScreenColor		    "white"
+    PaperOrientation	    "landscape"
+    PaperPositionMode	    "auto"
+    PaperType		    "usletter"
+    PaperUnits		    "inches"
+    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+    TiledPageScale	    1
+    ShowPageBoundaries	    off
+    ZoomFactor		    "100"
+    ReportName		    "simulink-default.rpt"
+    Block {
+      BlockType		      SubSystem
+      Name		      "Input Reordering"
+      Ports		      [32, 16]
+      Position		      [40, 34, 155, 666]
+      MinAlgLoopOccurrences   off
+      RTWSystemCode	      "Auto"
+      FunctionWithSeparateData off
+      MaskType		      "Input Reordering - Custom Blocks"
+      MaskDescription	      "This block reorders the output of the shift register."
+      MaskPromptString	      "Pipeline Level:"
+      MaskStyleString	      "edit"
+      MaskTunableValueString  "on"
+      MaskEnableString	      "on"
+      MaskVisibilityString    "on"
+      MaskToolTipString	      "on"
+      MaskVariables	      "pipeline_level=@1;"
+      MaskIconFrame	      on
+      MaskIconOpaque	      on
+      MaskIconRotate	      "none"
+      MaskIconUnits	      "autoscale"
+      MaskValueString	      "0"
+      System {
+	Name			"Input Reordering"
+	Location		[272, 179, 1085, 825]
+	Open			on
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Inport
+	  Name			  "In1"
+	  Position		  [85, 18, 115, 32]
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "In2"
+	  Position		  [75, 88, 105, 102]
+	  Port			  "2"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "In3"
+	  Position		  [55, 153, 85, 167]
+	  Port			  "3"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "In4"
+	  Position		  [55, 223, 85, 237]
+	  Port			  "4"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "In5"
+	  Position		  [55, 293, 85, 307]
+	  Port			  "5"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "In6"
+	  Position		  [55, 363, 85, 377]
+	  Port			  "6"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "In7"
+	  Position		  [55, 433, 85, 447]
+	  Port			  "7"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "In8"
+	  Position		  [60, 498, 90, 512]
+	  Port			  "8"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "In9"
+	  Position		  [385, 18, 415, 32]
+	  Port			  "9"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "In10"
+	  Position		  [395, 88, 425, 102]
+	  Port			  "10"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "In11"
+	  Position		  [390, 158, 420, 172]
+	  Port			  "11"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "In12"
+	  Position		  [390, 243, 420, 257]
+	  Port			  "12"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "In13"
+	  Position		  [400, 313, 430, 327]
+	  Port			  "13"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "In14"
+	  Position		  [405, 378, 435, 392]
+	  Port			  "14"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "In15"
+	  Position		  [375, 473, 405, 487]
+	  Port			  "15"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "In16"
+	  Position		  [410, 553, 440, 567]
+	  Port			  "16"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "In17"
+	  Position		  [370, 573, 400, 587]
+	  Port			  "17"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "In18"
+	  Position		  [415, 493, 445, 507]
+	  Port			  "18"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "In19"
+	  Position		  [445, 398, 475, 412]
+	  Port			  "19"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "In20"
+	  Position		  [440, 333, 470, 347]
+	  Port			  "20"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "In21"
+	  Position		  [425, 263, 455, 277]
+	  Port			  "21"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "In22"
+	  Position		  [425, 178, 455, 192]
+	  Port			  "22"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "In23"
+	  Position		  [435, 108, 465, 122]
+	  Port			  "23"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "In24"
+	  Position		  [425, 38, 455, 52]
+	  Port			  "24"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "In25"
+	  Position		  [100, 518, 130, 532]
+	  Port			  "25"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "In26"
+	  Position		  [100, 453, 130, 467]
+	  Port			  "26"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "In27"
+	  Position		  [100, 383, 130, 397]
+	  Port			  "27"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "In28"
+	  Position		  [100, 313, 130, 327]
+	  Port			  "28"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "In29"
+	  Position		  [100, 243, 130, 257]
+	  Port			  "29"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "In30"
+	  Position		  [100, 173, 130, 187]
+	  Port			  "30"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "In31"
+	  Position		  [30, 108, 60, 122]
+	  Port			  "31"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "In32"
+	  Position		  [40, 38, 70, 52]
+	  Port			  "32"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Pipelined Adder"
+	  Ports			  [2, 1]
+	  Position		  [185, 16, 225, 54]
+	  ForegroundColor	  "blue"
+	  SourceBlock		  "allblocks_alteradspbuilder2/Pipelined Adder"
+	  SourceType		  "Pipelined Adder AlteraBlockset"
+	  BusType		  "Signed Integer"
+	  bwl			  "12"
+	  bwr			  "0"
+	  pipeline		  "pipeline_level"
+	  pipeline_display	  "0"
+	  AddSubDirection	  "ADD"
+	  use_cin		  off
+	  use_ovl		  off
+	  use_addsub		  off
+	  use_ena		  off
+	  use_aclr		  off
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Pipelined Adder1"
+	  Ports			  [2, 1]
+	  Position		  [185, 86, 225, 124]
+	  ForegroundColor	  "blue"
+	  SourceBlock		  "allblocks_alteradspbuilder2/Pipelined Adder"
+	  SourceType		  "Pipelined Adder AlteraBlockset"
+	  BusType		  "Signed Integer"
+	  bwl			  "12"
+	  bwr			  "0"
+	  pipeline		  "pipeline_level"
+	  pipeline_display	  "0"
+	  AddSubDirection	  "ADD"
+	  use_cin		  off
+	  use_ovl		  off
+	  use_addsub		  off
+	  use_ena		  off
+	  use_aclr		  off
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Pipelined Adder10"
+	  Ports			  [2, 1]
+	  Position		  [510, 156, 550, 194]
+	  ForegroundColor	  "blue"
+	  SourceBlock		  "allblocks_alteradspbuilder2/Pipelined Adder"
+	  SourceType		  "Pipelined Adder AlteraBlockset"
+	  BusType		  "Signed Integer"
+	  bwl			  "12"
+	  bwr			  "0"
+	  pipeline		  "pipeline_level"
+	  pipeline_display	  "0"
+	  AddSubDirection	  "ADD"
+	  use_cin		  off
+	  use_ovl		  off
+	  use_addsub		  off
+	  use_ena		  off
+	  use_aclr		  off
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Pipelined Adder11"
+	  Ports			  [2, 1]
+	  Position		  [510, 241, 550, 279]
+	  ForegroundColor	  "blue"
+	  SourceBlock		  "allblocks_alteradspbuilder2/Pipelined Adder"
+	  SourceType		  "Pipelined Adder AlteraBlockset"
+	  BusType		  "Signed Integer"
+	  bwl			  "12"
+	  bwr			  "0"
+	  pipeline		  "pipeline_level"
+	  pipeline_display	  "0"
+	  AddSubDirection	  "ADD"
+	  use_cin		  off
+	  use_ovl		  off
+	  use_addsub		  off
+	  use_ena		  off
+	  use_aclr		  off
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Pipelined Adder12"
+	  Ports			  [2, 1]
+	  Position		  [510, 311, 550, 349]
+	  ForegroundColor	  "blue"
+	  SourceBlock		  "allblocks_alteradspbuilder2/Pipelined Adder"
+	  SourceType		  "Pipelined Adder AlteraBlockset"
+	  BusType		  "Signed Integer"
+	  bwl			  "12"
+	  bwr			  "0"
+	  pipeline		  "pipeline_level"
+	  pipeline_display	  "0"
+	  AddSubDirection	  "ADD"
+	  use_cin		  off
+	  use_ovl		  off
+	  use_addsub		  off
+	  use_ena		  off
+	  use_aclr		  off
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Pipelined Adder13"
+	  Ports			  [2, 1]
+	  Position		  [510, 376, 550, 414]
+	  ForegroundColor	  "blue"
+	  SourceBlock		  "allblocks_alteradspbuilder2/Pipelined Adder"
+	  SourceType		  "Pipelined Adder AlteraBlockset"
+	  BusType		  "Signed Integer"
+	  bwl			  "12"
+	  bwr			  "0"
+	  pipeline		  "pipeline_level"
+	  pipeline_display	  "0"
+	  AddSubDirection	  "ADD"
+	  use_cin		  off
+	  use_ovl		  off
+	  use_addsub		  off
+	  use_ena		  off
+	  use_aclr		  off
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Pipelined Adder14"
+	  Ports			  [2, 1]
+	  Position		  [510, 471, 550, 509]
+	  ForegroundColor	  "blue"
+	  SourceBlock		  "allblocks_alteradspbuilder2/Pipelined Adder"
+	  SourceType		  "Pipelined Adder AlteraBlockset"
+	  BusType		  "Signed Integer"
+	  bwl			  "12"
+	  bwr			  "0"
+	  pipeline		  "pipeline_level"
+	  pipeline_display	  "0"
+	  AddSubDirection	  "ADD"
+	  use_cin		  off
+	  use_ovl		  off
+	  use_addsub		  off
+	  use_ena		  off
+	  use_aclr		  off
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Pipelined Adder15"
+	  Ports			  [2, 1]
+	  Position		  [505, 551, 545, 589]
+	  ForegroundColor	  "blue"
+	  SourceBlock		  "allblocks_alteradspbuilder2/Pipelined Adder"
+	  SourceType		  "Pipelined Adder AlteraBlockset"
+	  BusType		  "Signed Integer"
+	  bwl			  "12"
+	  bwr			  "0"
+	  pipeline		  "pipeline_level"
+	  pipeline_display	  "0"
+	  AddSubDirection	  "ADD"
+	  use_cin		  off
+	  use_ovl		  off
+	  use_addsub		  off
+	  use_ena		  off
+	  use_aclr		  off
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Pipelined Adder2"
+	  Ports			  [2, 1]
+	  Position		  [185, 151, 225, 189]
+	  ForegroundColor	  "blue"
+	  SourceBlock		  "allblocks_alteradspbuilder2/Pipelined Adder"
+	  SourceType		  "Pipelined Adder AlteraBlockset"
+	  BusType		  "Signed Integer"
+	  bwl			  "12"
+	  bwr			  "0"
+	  pipeline		  "pipeline_level"
+	  pipeline_display	  "0"
+	  AddSubDirection	  "ADD"
+	  use_cin		  off
+	  use_ovl		  off
+	  use_addsub		  off
+	  use_ena		  off
+	  use_aclr		  off
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Pipelined Adder3"
+	  Ports			  [2, 1]
+	  Position		  [185, 221, 225, 259]
+	  ForegroundColor	  "blue"
+	  SourceBlock		  "allblocks_alteradspbuilder2/Pipelined Adder"
+	  SourceType		  "Pipelined Adder AlteraBlockset"
+	  BusType		  "Signed Integer"
+	  bwl			  "12"
+	  bwr			  "0"
+	  pipeline		  "pipeline_level"
+	  pipeline_display	  "0"
+	  AddSubDirection	  "ADD"
+	  use_cin		  off
+	  use_ovl		  off
+	  use_addsub		  off
+	  use_ena		  off
+	  use_aclr		  off
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Pipelined Adder4"
+	  Ports			  [2, 1]
+	  Position		  [180, 291, 220, 329]
+	  ForegroundColor	  "blue"
+	  SourceBlock		  "allblocks_alteradspbuilder2/Pipelined Adder"
+	  SourceType		  "Pipelined Adder AlteraBlockset"
+	  BusType		  "Signed Integer"
+	  bwl			  "12"
+	  bwr			  "0"
+	  pipeline		  "pipeline_level"
+	  pipeline_display	  "0"
+	  AddSubDirection	  "ADD"
+	  use_cin		  off
+	  use_ovl		  off
+	  use_addsub		  off
+	  use_ena		  off
+	  use_aclr		  off
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Pipelined Adder5"
+	  Ports			  [2, 1]
+	  Position		  [180, 361, 220, 399]
+	  ForegroundColor	  "blue"
+	  SourceBlock		  "allblocks_alteradspbuilder2/Pipelined Adder"
+	  SourceType		  "Pipelined Adder AlteraBlockset"
+	  BusType		  "Signed Integer"
+	  bwl			  "12"
+	  bwr			  "0"
+	  pipeline		  "pipeline_level"
+	  pipeline_display	  "0"
+	  AddSubDirection	  "ADD"
+	  use_cin		  off
+	  use_ovl		  off
+	  use_addsub		  off
+	  use_ena		  off
+	  use_aclr		  off
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Pipelined Adder6"
+	  Ports			  [2, 1]
+	  Position		  [180, 431, 220, 469]
+	  ForegroundColor	  "blue"
+	  SourceBlock		  "allblocks_alteradspbuilder2/Pipelined Adder"
+	  SourceType		  "Pipelined Adder AlteraBlockset"
+	  BusType		  "Signed Integer"
+	  bwl			  "12"
+	  bwr			  "0"
+	  pipeline		  "pipeline_level"
+	  pipeline_display	  "0"
+	  AddSubDirection	  "ADD"
+	  use_cin		  off
+	  use_ovl		  off
+	  use_addsub		  off
+	  use_ena		  off
+	  use_aclr		  off
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Pipelined Adder7"
+	  Ports			  [2, 1]
+	  Position		  [180, 496, 220, 534]
+	  ForegroundColor	  "blue"
+	  SourceBlock		  "allblocks_alteradspbuilder2/Pipelined Adder"
+	  SourceType		  "Pipelined Adder AlteraBlockset"
+	  BusType		  "Signed Integer"
+	  bwl			  "12"
+	  bwr			  "0"
+	  pipeline		  "pipeline_level"
+	  pipeline_display	  "0"
+	  AddSubDirection	  "ADD"
+	  use_cin		  off
+	  use_ovl		  off
+	  use_addsub		  off
+	  use_ena		  off
+	  use_aclr		  off
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Pipelined Adder8"
+	  Ports			  [2, 1]
+	  Position		  [510, 16, 550, 54]
+	  ForegroundColor	  "blue"
+	  SourceBlock		  "allblocks_alteradspbuilder2/Pipelined Adder"
+	  SourceType		  "Pipelined Adder AlteraBlockset"
+	  BusType		  "Signed Integer"
+	  bwl			  "12"
+	  bwr			  "0"
+	  pipeline		  "pipeline_level"
+	  pipeline_display	  "0"
+	  AddSubDirection	  "ADD"
+	  use_cin		  off
+	  use_ovl		  off
+	  use_addsub		  off
+	  use_ena		  off
+	  use_aclr		  off
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Pipelined Adder9"
+	  Ports			  [2, 1]
+	  Position		  [510, 86, 550, 124]
+	  ForegroundColor	  "blue"
+	  SourceBlock		  "allblocks_alteradspbuilder2/Pipelined Adder"
+	  SourceType		  "Pipelined Adder AlteraBlockset"
+	  BusType		  "Signed Integer"
+	  bwl			  "12"
+	  bwr			  "0"
+	  pipeline		  "pipeline_level"
+	  pipeline_display	  "0"
+	  AddSubDirection	  "ADD"
+	  use_cin		  off
+	  use_ovl		  off
+	  use_addsub		  off
+	  use_ena		  off
+	  use_aclr		  off
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out1"
+	  Position		  [310, 28, 340, 42]
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out2"
+	  Position		  [310, 98, 340, 112]
+	  Port			  "2"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out3"
+	  Position		  [315, 163, 345, 177]
+	  Port			  "3"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out4"
+	  Position		  [315, 233, 345, 247]
+	  Port			  "4"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out5"
+	  Position		  [315, 303, 345, 317]
+	  Port			  "5"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out6"
+	  Position		  [315, 373, 345, 387]
+	  Port			  "6"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out7"
+	  Position		  [315, 443, 345, 457]
+	  Port			  "7"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out8"
+	  Position		  [315, 508, 345, 522]
+	  Port			  "8"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out9"
+	  Position		  [640, 28, 670, 42]
+	  Port			  "9"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out10"
+	  Position		  [640, 98, 670, 112]
+	  Port			  "10"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out11"
+	  Position		  [635, 168, 665, 182]
+	  Port			  "11"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out12"
+	  Position		  [635, 253, 665, 267]
+	  Port			  "12"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out13"
+	  Position		  [635, 323, 665, 337]
+	  Port			  "13"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out14"
+	  Position		  [635, 388, 665, 402]
+	  Port			  "14"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out15"
+	  Position		  [635, 483, 665, 497]
+	  Port			  "15"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out16"
+	  Position		  [635, 563, 665, 577]
+	  Port			  "16"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "sfix(16)"
+	  OutScaling		  "2^0"
+	}
+	Line {
+	  SrcBlock		  "In1"
+	  SrcPort		  1
+	  DstBlock		  "Pipelined Adder"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "In32"
+	  SrcPort		  1
+	  DstBlock		  "Pipelined Adder"
+	  DstPort		  2
+	}
+	Line {
+	  SrcBlock		  "In2"
+	  SrcPort		  1
+	  DstBlock		  "Pipelined Adder1"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "In31"
+	  SrcPort		  1
+	  DstBlock		  "Pipelined Adder1"
+	  DstPort		  2
+	}
+	Line {
+	  SrcBlock		  "In3"
+	  SrcPort		  1
+	  DstBlock		  "Pipelined Adder2"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "In4"
+	  SrcPort		  1
+	  DstBlock		  "Pipelined Adder3"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "In5"
+	  SrcPort		  1
+	  DstBlock		  "Pipelined Adder4"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "In6"
+	  SrcPort		  1
+	  DstBlock		  "Pipelined Adder5"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "In7"
+	  SrcPort		  1
+	  DstBlock		  "Pipelined Adder6"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "In8"
+	  SrcPort		  1
+	  DstBlock		  "Pipelined Adder7"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "In9"
+	  SrcPort		  1
+	  DstBlock		  "Pipelined Adder8"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "In11"
+	  SrcPort		  1
+	  DstBlock		  "Pipelined Adder10"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "In12"
+	  SrcPort		  1
+	  DstBlock		  "Pipelined Adder11"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "In13"
+	  SrcPort		  1
+	  DstBlock		  "Pipelined Adder12"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "In14"
+	  SrcPort		  1
+	  DstBlock		  "Pipelined Adder13"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "In15"
+	  SrcPort		  1
+	  DstBlock		  "Pipelined Adder14"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "In10"
+	  SrcPort		  1
+	  DstBlock		  "Pipelined Adder9"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "In16"
+	  SrcPort		  1
+	  DstBlock		  "Pipelined Adder15"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "In17"
+	  SrcPort		  1
+	  DstBlock		  "Pipelined Adder15"
+	  DstPort		  2
+	}
+	Line {
+	  SrcBlock		  "In18"
+	  SrcPort		  1
+	  DstBlock		  "Pipelined Adder14"
+	  DstPort		  2
+	}
+	Line {
+	  SrcBlock		  "In19"
+	  SrcPort		  1
+	  DstBlock		  "Pipelined Adder13"
+	  DstPort		  2
+	}
+	Line {
+	  SrcBlock		  "In20"
+	  SrcPort		  1
+	  DstBlock		  "Pipelined Adder12"
+	  DstPort		  2
+	}
+	Line {
+	  SrcBlock		  "In21"
+	  SrcPort		  1
+	  DstBlock		  "Pipelined Adder11"
+	  DstPort		  2
+	}
+	Line {
+	  SrcBlock		  "In22"
+	  SrcPort		  1
+	  DstBlock		  "Pipelined Adder10"
+	  DstPort		  2
+	}
+	Line {
+	  SrcBlock		  "In23"
+	  SrcPort		  1
+	  DstBlock		  "Pipelined Adder9"
+	  DstPort		  2
+	}
+	Line {
+	  SrcBlock		  "In24"
+	  SrcPort		  1
+	  DstBlock		  "Pipelined Adder8"
+	  DstPort		  2
+	}
+	Line {
+	  SrcBlock		  "In25"
+	  SrcPort		  1
+	  DstBlock		  "Pipelined Adder7"
+	  DstPort		  2
+	}
+	Line {
+	  SrcBlock		  "In26"
+	  SrcPort		  1
+	  DstBlock		  "Pipelined Adder6"
+	  DstPort		  2
+	}
+	Line {
+	  SrcBlock		  "In27"
+	  SrcPort		  1
+	  DstBlock		  "Pipelined Adder5"
+	  DstPort		  2
+	}
+	Line {
+	  SrcBlock		  "In28"
+	  SrcPort		  1
+	  DstBlock		  "Pipelined Adder4"
+	  DstPort		  2
+	}
+	Line {
+	  SrcBlock		  "In29"
+	  SrcPort		  1
+	  DstBlock		  "Pipelined Adder3"
+	  DstPort		  2
+	}
+	Line {
+	  SrcBlock		  "In30"
+	  SrcPort		  1
+	  DstBlock		  "Pipelined Adder2"
+	  DstPort		  2
+	}
+	Line {
+	  SrcBlock		  "Pipelined Adder"
+	  SrcPort		  1
+	  DstBlock		  "Out1"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Pipelined Adder1"
+	  SrcPort		  1
+	  DstBlock		  "Out2"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Pipelined Adder2"
+	  SrcPort		  1
+	  DstBlock		  "Out3"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Pipelined Adder3"
+	  SrcPort		  1
+	  DstBlock		  "Out4"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Pipelined Adder4"
+	  SrcPort		  1
+	  DstBlock		  "Out5"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Pipelined Adder5"
+	  SrcPort		  1
+	  DstBlock		  "Out6"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Pipelined Adder6"
+	  SrcPort		  1
+	  DstBlock		  "Out7"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Pipelined Adder7"
+	  SrcPort		  1
+	  DstBlock		  "Out8"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Pipelined Adder8"
+	  SrcPort		  1
+	  DstBlock		  "Out9"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Pipelined Adder9"
+	  SrcPort		  1
+	  DstBlock		  "Out10"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Pipelined Adder10"
+	  SrcPort		  1
+	  DstBlock		  "Out11"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Pipelined Adder15"
+	  SrcPort		  1
+	  DstBlock		  "Out16"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Pipelined Adder14"
+	  SrcPort		  1
+	  DstBlock		  "Out15"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Pipelined Adder13"
+	  SrcPort		  1
+	  DstBlock		  "Out14"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Pipelined Adder12"
+	  SrcPort		  1
+	  DstBlock		  "Out13"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Pipelined Adder11"
+	  SrcPort		  1
+	  DstBlock		  "Out12"
+	  DstPort		  1
+	}
+      }
+    }
+  }
+}
