@@ -1,3 +1,4 @@
+![image](https://user-images.githubusercontent.com/79219538/167878206-aaec36d0-be5c-4bbc-98a4-da75dbc4813b.png)
 # polytech20_22
 
 
